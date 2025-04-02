@@ -1,6 +1,6 @@
 'use client'
 
-import { useState, useEffect } from "react"
+import { useState } from "react"
 import Autoplay from "embla-carousel-autoplay"
 
 import {
@@ -9,7 +9,7 @@ import {
     CarouselItem,
     CarouselNext,
     CarouselPrevious,
-    type CarouselApi
+
 } from "@/components/ui/carousel"
 
 const images = [
@@ -26,26 +26,25 @@ const images = [
 
 export default function CarouselPlay() {
     const [autoplay] = useState(() => Autoplay({ delay: 3000, stopOnInteraction: true }));
-    const [api, setApi] = useState<CarouselApi>()
-    const [current, setCurrent] = useState(0)
-    const [count, setCount] = useState(0)
+    // const [api, setApi] = useState<CarouselApi>()
+    // const [current, setCurrent] = useState(0)
+    // const [count, setCount] = useState(0)
 
-    useEffect(() => {
-        if (!api) {
-            return
-        }
+    // useEffect(() => {
+    //     if (!api) {
+    //         return
+    //     }
 
-        setCount(api.scrollSnapList().length)
-        setCurrent(api.selectedScrollSnap() + 1)
+    //     setCount(api.scrollSnapList().length)
+    //     setCurrent(api.selectedScrollSnap() + 1)
 
-        api.on("select", () => {
-            setCurrent(api.selectedScrollSnap() + 1)
-        })
-    }, [api])
+    //     api.on("select", () => {
+    //         setCurrent(api.selectedScrollSnap() + 1)
+    //     })
+    // }, [api])
     return (
         <>
             <Carousel
-                setApi={setApi}
                 plugins={[autoplay]}
             >
                 <CarouselContent className="w-full h-[150px] md:[h-250px] lg:w-[1245px] lg:h-[300px]">
