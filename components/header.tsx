@@ -33,11 +33,9 @@ export default function Header() {
 
     useEffect(() => {
         const handleScroll = () => {
-            const timer = setTimeout(() => {
+            setTimeout(() => {
                 setIsSticky(window.scrollY > 520);
             }, 100)
-
-            clearTimeout(timer)
         };
 
         window.addEventListener('scroll', handleScroll);
@@ -81,7 +79,7 @@ export default function Header() {
                     </motion.div>
                 )}
             </AnimatePresence>
-            <div className={`bg-[#3E5295] transition-shadow duration-300 ${isSticky ? 'shadow-lg' : ''}`}>
+            <motion.div className={`bg-[#3E5295] transition-shadow duration-300 ${isSticky ? 'shadow-lg' : ''}`}>
                 <div className="w-full max-w-[1230px] mx-auto text-white">
                     <div className="flex justify-between items-center p-2 md:py-2 md:px-[22px]">
                         <Image src="/img/PANALOBET-LOGO.webp" alt="PANALOBET" width={120} height={40} />
@@ -103,7 +101,7 @@ export default function Header() {
                         </button>
                     </div>
                 </div>
-            </div>
+            </motion.div>
 
             <div className="w-full max-w-[1230px] mx-auto text-white">
                 <nav className={`bg-[#252B73] md:flex justify-center py-2 ${mobileMenuOpen ? 'block' : 'hidden md:block'}`}>
