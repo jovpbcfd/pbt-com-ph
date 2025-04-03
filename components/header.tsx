@@ -4,6 +4,7 @@
 import { useState, useEffect } from 'react';
 import Image from 'next/image';
 import Link from 'next/link';
+import { motion, AnimatePresence } from "framer-motion";
 
 function Menu() {
     return (
@@ -32,16 +33,20 @@ export default function Header() {
 
     useEffect(() => {
         const handleScroll = () => {
-            setIsSticky(window.scrollY > 50);
+            const timer = setTimeout(() => {
+                setIsSticky(window.scrollY > 520);
+            }, 100)
+
+            clearTimeout(timer)
         };
 
         window.addEventListener('scroll', handleScroll);
         return () => window.removeEventListener('scroll', handleScroll);
     }, []);
     return (
-        <header className="bg-[#252B73]">
-            <div className="w-full max-w-[1230px] mx-auto text-white">
-                <nav className={`hidden md:flex justify-end bg-[#252B73] text-sm py-2 px-4 transition-opacity ${isSticky ? 'opacity-0' : 'opacity-100'}`}>
+        <header className={`bg-[#252B73] ransition-all duration-300 ease-in-out ${isSticky && 'sticky top-0 z-100 shadow-lg'}`}>
+            {/* <motion.div className={`w-full max-w-[1230px] mx-auto text-white transition-all duration-300 ${isSticky ? 'opacity-0 pointer-events-none' : 'opacity-100'}`}>
+                <nav className={`hidden md:flex justify-end bg-[#252B73] text-sm py-2 px-4 transition-opacity duration-300 ${isSticky ? 'opacity-0' : 'opacity-100'}`}>
                     <Link href="#" className="px-3">PANALOBET REGISTER</Link>
                     <span>|</span>
                     <Link href="#" className="px-3">PANALOBET LOGIN</Link>
@@ -52,14 +57,43 @@ export default function Header() {
                     <span>|</span>
                     <Link href="#" className="px-3">DOWNLOAD PANALOBET APP</Link>
                 </nav>
-            </div>
-            <div className={`bg-[#3E5295] transition-all ${isSticky ? 'shadow-lg' : ''}`}>
+            </motion.div> */}
+            <AnimatePresence>
+                {!isSticky && (
+                    <motion.div
+                        initial={{ opacity: 1, height: "auto" }}
+                        animate={{ opacity: 1, height: "auto" }}
+                        exit={{ opacity: 0, height: 0 }}
+                        transition={{ duration: 0.3, ease: "easeInOut" }}
+                        className="w-full max-w-[1230px] mx-auto text-white"
+                    >
+                        <nav className="hidden md:flex justify-end bg-[#252B73] text-sm py-2 px-4">
+                            <Link href="#" className="px-3">PANALOBET REGISTER</Link>
+                            <span>|</span>
+                            <Link href="#" className="px-3">PANALOBET LOGIN</Link>
+                            <span>|</span>
+                            <Link href="#" className="px-3">PANALOBET DEPOSIT</Link>
+                            <span>|</span>
+                            <Link href="#" className="px-3">PANALOBET WITHDRAWAL</Link>
+                            <span>|</span>
+                            <Link href="#" className="px-3">DOWNLOAD PANALOBET APP</Link>
+                        </nav>
+                    </motion.div>
+                )}
+            </AnimatePresence>
+            <div className={`bg-[#3E5295] transition-shadow duration-300 ${isSticky ? 'shadow-lg' : ''}`}>
                 <div className="w-full max-w-[1230px] mx-auto text-white">
                     <div className="flex justify-between items-center p-2 md:py-2 md:px-[22px]">
                         <Image src="/img/PANALOBET-LOGO.webp" alt="PANALOBET" width={120} height={40} />
                         <div className="hidden md:flex gap-4">
-                            <button className="bg-[linear-gradient(135deg,#991111_0%,#f60015_50%,#991111_100%)] px-4 py-2 rounded shadow-md">REGISTER</button>
-                            <button className="bg-[linear-gradient(135deg,#1f2460_0%,#005fbe_50%,#1f2460_100%)] px-4 py-2 rounded shadow-md">LOGIN</button>
+                            <Link href="#" className="bg-[linear-gradient(135deg,#991111_0%,#f60015_50%,#991111_100%)] px-4 py-2 rounded shadow-md text-center
+                            transition-transform transform hover:scale-105 hover:bg-[linear-gradient(135deg,#f60015_0%,#991111_50%,#f60015_100%)] duration-300
+                            md:w-[150px]
+                            ">REGISTER</Link>
+                            <Link href="#" className="bg-[linear-gradient(135deg,#1f2460_0%,#005fbe_50%,#1f2460_100%)] px-4 py-2 rounded shadow-md text-center
+                            transition-transform transform hover:scale-105 hover:bg-[linear-gradient(135deg,#005fbe_0%,#1f2460_50%,#005fbe_100%)] duration-300
+                            md:w-[150px]
+                            ">LOGIN</Link>
                         </div>
                         <button
                             className="md:hidden text-white"
@@ -100,6 +134,18 @@ export default function Header() {
                         </Link>
                         <Link href="#" className="flex items-center gap-2">
                             <span className="emoji">📰</span> NEWS
+                        </Link>
+                    </div>
+                    <div className="flex justify-center items-center mt-4 gap-4 mx-auto md:hidden">
+                        <Link href="#" className="bg-[linear-gradient(135deg,#991111_0%,#f60015_50%,#991111_100%)] px-4 py-2 rounded shadow-md text-center
+                            w-[100px]
+                            transition-transform transform hover:scale-105 hover:bg-[linear-gradient(135deg,#f60015_0%,#991111_50%,#f60015_100%)] duration-300
+                            ">REGISTER
+                        </Link>
+                        <Link href="#" className="bg-[linear-gradient(135deg,#1f2460_0%,#005fbe_50%,#1f2460_100%)] px-4 py-2 rounded shadow-md text-center
+                            w-[100px]
+                            transition-transform transform hover:scale-105 hover:bg-[linear-gradient(135deg,#005fbe_0%,#1f2460_50%,#005fbe_100%)] duration-300
+                            ">LOGIN
                         </Link>
                     </div>
                 </nav>
