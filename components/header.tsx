@@ -161,7 +161,7 @@ export default function Header() {
               <span>🎥</span> LIVE CASINO
             </Link>
             <Link
-              href="#"
+              href="/card-games"
               className="flex items-center gap-2 transition-transform transform duration-300 hover:scale-105 hover:underline"
             >
               <span>🃏</span> CARDS
