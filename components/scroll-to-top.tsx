@@ -40,7 +40,7 @@ export default function ScrollToTop() {
           onClick={scrollToTop}
           role="button"
           aria-label="Scroll to top"
-          className="text-white bg-[#252B73] cursor-pointer border border-white rounded-md md:px-4 md:py-2"
+          className="text-white bg-[#252B73] cursor-pointer border border-white rounded-md px-6 py-3 md:px-4 md:py-2"
         >
           ↑
         </button>
