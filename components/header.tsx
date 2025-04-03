@@ -155,10 +155,10 @@ export default function Header() {
               <span>🎰</span> SLOTS
             </Link>
             <Link
-              href="#"
+              href="/live-casino"
               className="flex items-center gap-2 transition-transform transform duration-300 hover:scale-105 hover:underline"
             >
-              <span>🎥</span> LIVE
+              <span>🎥</span> LIVE CASINO
             </Link>
             <Link
               href="#"
