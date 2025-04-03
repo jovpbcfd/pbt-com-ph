@@ -30,7 +30,7 @@ export default function Footer() {
                 href="#"
                 className="flex items-center gap-2 transition-transform transform duration-300 hover:scale-105 hover:underline"
               >
-                <span className="px-3">|</span> LIVE
+                <span className="px-3">|</span> LIVE CASINO
               </Link>
               <Link
                 href="#"
