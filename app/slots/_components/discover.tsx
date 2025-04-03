@@ -6,7 +6,7 @@ export default function Discover() {
       <div className="my-2 md:mb-4 md:mt-16">
         <h1 className="flex items-center w-full gap-2 text-lg flex-col font-[900] uppercase md:mb-2 md:flex-row md:text-xl lg:text-2xl">
           <div className="h-[1px] bg-[#8F92B0] flex-grow hidden sm:block"></div>
-          <span className="text-center md:whitespace-nowrap md:px-2">
+          <span className="text-center md:px-2">
             Discover the Excites of Slots Games at Panalobet: Your Complete
             Slots Guide
           </span>
@@ -46,23 +46,29 @@ export default function Discover() {
               </span>
               <div className="h-[1px] bg-[#8F92B0] flex-grow hidden sm:block"></div>
             </h2>
-            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
-              <div className="border-1 border-dashed flex items-center justify-center rounded-md md:w-[274px] md:h-[274px]">
+            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-4">
+              <div className="border-1 border-dashed flex items-center justify-center rounded-md md:w-[200px] md:h-[200px]">
                 Image
               </div>
-              <div className="border-1 border-dashed flex items-center justify-center rounded-md md:w-[274px] md:h-[274px]">
+              <div className="border-1 border-dashed flex items-center justify-center rounded-md md:w-[200px] md:h-[200px]">
                 Image
               </div>
-              <div className="border-1 border-dashed flex items-center justify-center rounded-md md:w-[274px] md:h-[274px]">
+              <div className="border-1 border-dashed flex items-center justify-center rounded-md md:w-[200px] md:h-[200px]">
                 Image
               </div>
-              <div className="border-1 border-dashed flex items-center justify-center rounded-md md:w-[274px] md:h-[274px]">
+              <div className="border-1 border-dashed flex items-center justify-center rounded-md md:w-[200px] md:h-[200px]">
                 Image
               </div>
-              <div className="border-1 border-dashed flex items-center justify-center rounded-md md:w-[274px] md:h-[274px]">
+              <div className="border-1 border-dashed flex items-center justify-center rounded-md md:w-[200px] md:h-[200px]">
                 Image
               </div>
-              <div className="border-1 border-dashed flex items-center justify-center rounded-md md:w-[274px] md:h-[274px]">
+              <div className="border-1 border-dashed flex items-center justify-center rounded-md md:w-[200px] md:h-[200px]">
+                Image
+              </div>
+              <div className="border-1 border-dashed flex items-center justify-center rounded-md md:w-[200px] md:h-[200px]">
+                Image
+              </div>
+              <div className="border-1 border-dashed flex items-center justify-center rounded-md md:w-[200px] md:h-[200px]">
                 Image
               </div>
             </div>
