@@ -3,6 +3,8 @@ import { Geist, Geist_Mono } from "next/font/google";
 import "./globals.css";
 
 import Header from "@/components/header";
+import Footer from "@/components/footer";
+import ScrollToTop from "@/components/scroll-to-top";
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
@@ -25,14 +27,14 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="en">
+    <html lang="en" className="scroll-smooth">
       <body
         className={`${geistSans.variable} ${geistMono.variable} antialiased bg-[#1F2460]`}
       >
+        <ScrollToTop />
         <Header />
-        <main>
-          {children}
-        </main>
+        <main>{children}</main>
+        <Footer />
       </body>
     </html>
   );

@@ -58,7 +58,7 @@ export default function WithdrawalGuide() {
                                     </div>
                                 </div>
                                 <div className="self-center w-full md:w-[50%]">
-                                    <div className="rounded-full border-2 border-gray-300 font-bold transition-all bg-white shadow-lg hidden 
+                                    <div className="rounded-full border-2 border-gray-300 font-bold transition-all bg-white shadow-lg hidden
                                     md:flex md:items-center md:justify-center  md:mb-4 md:w-12 md:h-12">
                                         <span className={cn(activeStep === withdrawal.id ? "text-blue-600" : "text-gray-500")}>0{withdrawal.id}</span>
                                     </div>
