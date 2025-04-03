@@ -27,13 +27,13 @@ export default function Footer() {
                 <span className="px-3">|</span> SLOTS
               </Link>
               <Link
-                href="#"
+                href="/live-casino"
                 className="flex items-center gap-2 transition-transform transform duration-300 hover:scale-105 hover:underline"
               >
                 <span className="px-3">|</span> LIVE CASINO
               </Link>
               <Link
-                href="#"
+                href="/card-games"
                 className="flex items-center gap-2 transition-transform transform duration-300 hover:scale-105 hover:underline"
               >
                 <span className="px-3">|</span> CARDS
