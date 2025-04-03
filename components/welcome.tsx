@@ -36,7 +36,7 @@ export default function Welcome() {
                     </div>
                 </div>
                 <div>
-                    <h2 className="flex items-center w-full gap-2 text-lg flex-col font-[900] uppercase md:mb-2 md:flex-row md:text-xl lg:text-2xl">
+                    <h2 className="flex items-center w-full gap-2 text-lg flex-col font-[900] uppercase md:my-4 md:flex-row md:text-xl lg:text-2xl">
                         <div className="h-[1px] bg-[#8F92B0] flex-grow hidden sm:block"></div>
                         <span className="text-center md:whitespace-nowrap md:px-2">
                             Beginning Panalobet
