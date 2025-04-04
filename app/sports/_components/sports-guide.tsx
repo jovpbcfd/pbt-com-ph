@@ -1,4 +1,5 @@
 import Link from "next/link";
+import Image from "next/image";
 
 export default function SportsGuide() {
   return (
@@ -12,7 +13,7 @@ export default function SportsGuide() {
           </span>
           <div className="h-[1px] bg-[#8F92B0] flex-grow hidden sm:block"></div>
         </h1>
-        <div className="mt-5">
+        <div className="mt-5 text-justify md:text-left">
           <p className="mb-2 md:mb-4">
             Sports betting has become somewhat popular recently, thanks to an
             amazing explosion. This increase represents a revolution
@@ -38,32 +39,57 @@ export default function SportsGuide() {
           </p>
         </div>
         <div className="mt-4 flex flex-col justify-between gap-4 md:mb-8 md:flex-row">
-          <div className="w-full self-center border-1 border-dashed flex items-center justify-center rounded-md md:w-[373px] md:h-[373px]">
-            Image
+          <div className="w-full self-center flex items-center justify-center rounded-md md:w-[373px] md:h-[373px]">
+            <Image
+              src="/img/Game_Sports/parent-sports.webp"
+              alt="Sports"
+              width={373}
+              height={373}
+            />
           </div>
           <div>
-            <h2 className="flex items-center w-full gap-2 text-lg flex-col font-[900] uppercase my-2 md:mt-5 md:mb-8 md:flex-row md:text-xl lg:text-2xl">
+            <h2 className="flex items-center w-full gap-2 text-lg flex-col font-[900] uppercase my-2 md:mt-5 md:mb-0 md:flex-row md:text-xl lg:text-2xl">
               <div className="h-[1px] bg-[#8F92B0] flex-grow hidden sm:block"></div>
               <span className="text-center md:whitespace-nowrap md:px-2">
                 Why Sporting Betting Has Become So Popular
               </span>
               <div className="h-[1px] bg-[#8F92B0] flex-grow hidden sm:block"></div>
             </h2>
-            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-4">
-              <div className="border-1 border-dashed flex items-center justify-center rounded-md md:w-[200px] md:h-[200px]">
-                Image
+            <div className="grid grid-cols-2 lg:grid-cols-4 gap-4">
+              <div className="flex items-center justify-center rounded-md md:w-[200px] md:h-[200px]">
+                <Image
+                  src="/img/Game_Sports/sports- basketball.webp"
+                  alt="Sports Basketball"
+                  width={200}
+                  height={200}
+                />
               </div>
-              <div className="border-1 border-dashed flex items-center justify-center rounded-md md:w-[200px] md:h-[200px]">
-                Image
+              <div className="flex items-center justify-center rounded-md md:w-[200px] md:h-[200px]">
+                <Image
+                  src="/img/Game_Sports/sports- esport.webp"
+                  alt="Sports Esports"
+                  width={200}
+                  height={200}
+                />
               </div>
-              <div className="border-1 border-dashed flex items-center justify-center rounded-md md:w-[200px] md:h-[200px]">
-                Image
+              <div className="flex items-center justify-center rounded-md md:w-[200px] md:h-[200px]">
+                <Image
+                  src="/img/Game_Sports/sports- esport.webp"
+                  alt="Sports Esports"
+                  width={200}
+                  height={200}
+                />
               </div>
-              <div className="border-1 border-dashed flex items-center justify-center rounded-md md:w-[200px] md:h-[200px]">
-                Image
+              <div className="flex items-center justify-center rounded-md md:w-[200px] md:h-[200px]">
+                <Image
+                  src="/img/Game_Sports/sports- soccer.webp"
+                  alt="Sports Soccer"
+                  width={200}
+                  height={200}
+                />
               </div>
             </div>
-            <div className="w-full flex items-center justify-center mt-2 md:mt-8">
+            <div className="w-full flex items-center justify-center mt-5 md:mt-0">
               <Link
                 href="#"
                 className="bg-[linear-gradient(135deg,#991111_0%,#f60015_50%,#991111_100%)] px-4 py-2 rounded shadow-md text-center
@@ -76,8 +102,8 @@ export default function SportsGuide() {
             </div>
           </div>
         </div>
-        <div>
-          <div>
+        <div className="mt-5 md:mt-0">
+          <div className="text-justify text-left">
             <p className="mb-2 md:my-4">
               Unquestionably popular worldwide and only getting more so is
               sports betting. Industry study estimates that the worldwide sports

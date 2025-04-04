@@ -1,4 +1,5 @@
 import Link from "next/link";
+import Image from "next/image";
 
 export default function CompleteGuide() {
   return (
@@ -11,7 +12,7 @@ export default function CompleteGuide() {
           </span>
           <div className="h-[1px] bg-[#8F92B0] flex-grow hidden sm:block"></div>
         </h1>
-        <div>
+        <div className="text-justify md:text-left">
           <p className="mb-2 md:mb-4">
             Online gaming has developed into a vibrant, fast expanding sector
             that is always developing to provide players all around interesting
@@ -28,8 +29,13 @@ export default function CompleteGuide() {
           </p>
         </div>
         <div className="mt-4 flex flex-col justify-between gap-4 md:mb-8 md:flex-row">
-          <div className="w-full self-center border-1 border-dashed flex items-center justify-center rounded-md md:w-[373px] md:h-[373px]">
-            Image
+          <div className="w-full self-center flex items-center justify-center rounded-md md:w-[373px] md:h-[373px]">
+            <Image
+              src="/img/Game_Live Casino/parent-live casino.webp"
+              alt="Live Casino"
+              width={373}
+              height={373}
+            />
           </div>
           <div>
             <h2 className="flex items-center w-full gap-2 text-lg flex-col font-[900] uppercase my-2 md:mt-5 md:mb-8 md:flex-row md:text-xl lg:text-2xl">
@@ -39,18 +45,38 @@ export default function CompleteGuide() {
               </span>
               <div className="h-[1px] bg-[#8F92B0] flex-grow hidden sm:block"></div>
             </h2>
-            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-4">
-              <div className="border-1 border-dashed flex items-center justify-center rounded-md md:w-[180px] md:h-[180px]">
-                Image
+            <div className="grid grid-cols-2 lg:grid-cols-4 gap-4">
+              <div className="flex items-center justify-center rounded-md md:w-[180px] md:h-[180px]">
+                <Image
+                  src="/img/Game_Live Casino/live-blackjack.webp"
+                  alt="Live blackjack"
+                  width={180}
+                  height={180}
+                />
               </div>
-              <div className="border-1 border-dashed flex items-center justify-center rounded-md md:w-[180px] md:h-[180px]">
-                Image
+              <div className="flex items-center justify-center rounded-md md:w-[180px] md:h-[180px]">
+                <Image
+                  src="/img/Game_Live Casino/live-fortune roulette.webp"
+                  alt="Live Fortune Roulette"
+                  width={180}
+                  height={180}
+                />
               </div>
-              <div className="border-1 border-dashed flex items-center justify-center rounded-md md:w-[180px] md:h-[180px]">
-                Image
+              <div className="flex items-center justify-center rounded-md md:w-[180px] md:h-[180px]">
+                <Image
+                  src="/img/Game_Live Casino/live-sicbac.webp"
+                  alt="Live Sicbac"
+                  width={180}
+                  height={180}
+                />
               </div>
-              <div className="border-1 border-dashed flex items-center justify-center rounded-md md:w-[180px] md:h-[180px]">
-                Image
+              <div className="flex items-center justify-center rounded-md md:w-[180px] md:h-[180px]">
+                <Image
+                  src="/img/Game_Live Casino/live-vegas ball bonanza.webp"
+                  alt="Live Vegas Ball"
+                  width={180}
+                  height={180}
+                />
               </div>
             </div>
             <div className="w-full flex items-center justify-center mt-2 md:mt-8">
@@ -66,8 +92,8 @@ export default function CompleteGuide() {
             </div>
           </div>
         </div>
-        <div>
-          <div>
+        <div className="mt-8 md:mt-0">
+          <div className="text-justify md:text-left">
             <p className="mb-2 md:my-4">
               The best combination of real-world excitement from a
               brick-and-mortar casino with internet ease are live casino games.

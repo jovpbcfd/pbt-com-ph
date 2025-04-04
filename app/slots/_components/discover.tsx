@@ -1,4 +1,5 @@
 import Link from "next/link";
+import Image from "next/image";
 
 export default function Discover() {
   return (
@@ -12,7 +13,7 @@ export default function Discover() {
           </span>
           <div className="h-[1px] bg-[#8F92B0] flex-grow hidden sm:block"></div>
         </h1>
-        <div>
+        <div className="text-justify md:text-left">
           <p className="mb-2 md:mb-4">
             Among the most often used kinds of gambling, slot games are
             justifiably rather popular. Offering players thrills, entertainment,
@@ -35,44 +36,97 @@ export default function Discover() {
           </p>
         </div>
         <div className="mt-4 flex flex-col justify-between gap-4 md:mb-8 md:flex-row">
-          <div className="w-full self-center border-1 border-dashed flex items-center justify-center rounded-md md:w-[354px] md:h-[454px]">
-            Image
+          <div className="w-full self-center flex items-center justify-center rounded-md md:w-[354px] md:h-[454px]">
+            <Image
+              src="/img/Game_slots/parent-slots.webp"
+              alt="Slots"
+              width={354}
+              height={354}
+            />
           </div>
           <div>
-            <h2 className="flex items-center w-full gap-2 text-lg flex-col font-[900] uppercase my-2 md:mt-5 md:mb-8 md:flex-row md:text-xl lg:text-2xl">
+            <h2 className="flex items-center w-full gap-2 text-lg flex-col font-[900] uppercase my-2 md:mt-5 md:mb-0 md:flex-row md:text-xl lg:text-2xl">
               <div className="h-[1px] bg-[#8F92B0] flex-grow hidden sm:block"></div>
               <span className="text-center md:whitespace-nowrap md:px-2">
                 The Development of Slots Games
               </span>
               <div className="h-[1px] bg-[#8F92B0] flex-grow hidden sm:block"></div>
             </h2>
-            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-4">
-              <div className="border-1 border-dashed flex items-center justify-center rounded-md md:w-[200px] md:h-[200px]">
-                Image
+            <div className="grid grid-cols-2 gap-4 lg:grid-cols-4">
+              <div className="flex items-center justify-center rounded-md md:w-[180px] md:h-[180px] lg:w-[200px] lg:h-[200px]">
+                <Image
+                  src="/img/Game_slots/slot- crazy hunter.webp"
+                  alt="Slots Crazy hunter"
+                  width={200}
+                  height={200}
+                  className="lg:self-end"
+                />
               </div>
-              <div className="border-1 border-dashed flex items-center justify-center rounded-md md:w-[200px] md:h-[200px]">
-                Image
+              <div className="flex items-center justify-center rounded-md md:w-[180px] md:h-[180px] lg:w-[200px] lg:h-[200px]">
+                <Image
+                  src="/img/Game_slots/slot-777.webp"
+                  alt="Slots 777"
+                  width={200}
+                  height={200}
+                  className="lg:self-end"
+                />
               </div>
-              <div className="border-1 border-dashed flex items-center justify-center rounded-md md:w-[200px] md:h-[200px]">
-                Image
+              <div className="flex items-center justify-center rounded-md md:w-[180px] md:h-[180px] lg:w-[200px] lg:h-[200px]">
+                <Image
+                  src="/img/Game_slots/slot-candy baby.webp"
+                  alt="Slot candy baby"
+                  width={200}
+                  height={200}
+                  className="lg:self-end"
+                />
               </div>
-              <div className="border-1 border-dashed flex items-center justify-center rounded-md md:w-[200px] md:h-[200px]">
-                Image
+              <div className="flex items-center justify-center rounded-md md:w-[180px] md:h-[180px] lg:w-[200px] lg:h-[200px]">
+                <Image
+                  src="/img/Game_slots/slot-charge buffalo.webp"
+                  alt="Slot charge buffalo"
+                  width={200}
+                  height={200}
+                  className="lg:self-end"
+                />
               </div>
-              <div className="border-1 border-dashed flex items-center justify-center rounded-md md:w-[200px] md:h-[200px]">
-                Image
+              <div className="flex items-center justify-center rounded-md md:w-[180px] md:h-[180px] lg:w-[200px] lg:h-[200px]">
+                <Image
+                  src="/img/Game_slots/slot-fortune gems.webp"
+                  alt="Slot fortune gems"
+                  width={200}
+                  height={200}
+                  className="lg:self-start"
+                />
               </div>
-              <div className="border-1 border-dashed flex items-center justify-center rounded-md md:w-[200px] md:h-[200px]">
-                Image
+              <div className="flex items-center justify-center rounded-md md:w-[180px] md:h-[180px] lg:w-[200px] lg:h-[200px]">
+                <Image
+                  src="/img/Game_slots/slot-golden empire.webp"
+                  alt="Slot golder empire"
+                  width={200}
+                  height={200}
+                  className="lg:self-start"
+                />
               </div>
-              <div className="border-1 border-dashed flex items-center justify-center rounded-md md:w-[200px] md:h-[200px]">
-                Image
+              <div className="flex items-center justify-center rounded-md md:w-[180px] md:h-[180px] lg:w-[200px] lg:h-[200px]">
+                <Image
+                  src="/img/Game_slots/slot-money gaming.webp"
+                  alt="Slot money gaming"
+                  width={200}
+                  height={200}
+                  className="lg:self-start"
+                />
               </div>
-              <div className="border-1 border-dashed flex items-center justify-center rounded-md md:w-[200px] md:h-[200px]">
-                Image
+              <div className="flex items-center justify-center rounded-md md:w-[180px] md:h-[180px] lg:w-[200px] lg:h-[200px]">
+                <Image
+                  src="/img/Game_slots/slot-super ace.webp"
+                  alt="Slot super ace"
+                  width={200}
+                  height={200}
+                  className="lg:self-start"
+                />
               </div>
             </div>
-            <div className="w-full flex items-center justify-center mt-2 md:mt-8">
+            <div className="w-full flex items-center justify-center mt-5 md:mt-1">
               <Link
                 href="#"
                 className="bg-[linear-gradient(135deg,#991111_0%,#f60015_50%,#991111_100%)] px-4 py-2 rounded shadow-md text-center
@@ -85,8 +139,8 @@ export default function Discover() {
             </div>
           </div>
         </div>
-        <div>
-          <div>
+        <div className="mt-8">
+          <div className="text-justify md:text-left">
             <h2 className="font-[900] uppercase text-lg md:text-xl lg:text-2xl">
               An Overview of History
             </h2>

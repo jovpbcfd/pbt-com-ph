@@ -1,4 +1,5 @@
 import Link from "next/link";
+import Image from "next/image";
 
 export default function FishingGuide() {
   return (
@@ -11,7 +12,7 @@ export default function FishingGuide() {
           </span>
           <div className="h-[1px] bg-[#8F92B0] flex-grow hidden sm:block"></div>
         </h1>
-        <div>
+        <div className="text-justify md:text-left">
           <p className="mb-2 md:mb-4">
             With new genres and trends always developing to enthrall players
             worldwide, the online gaming and gambling sector has seen amazing
@@ -28,44 +29,97 @@ export default function FishingGuide() {
           </p>
         </div>
         <div className="mt-4 flex flex-col justify-between gap-4 md:mb-8 md:flex-row">
-          <div className="w-full self-center border-1 border-dashed flex items-center justify-center rounded-md md:w-[373px] md:h-[373px]">
-            Image
+          <div className="w-full self-center flex items-center justify-center rounded-md md:w-[373px] md:h-[373px]">
+            <Image
+              src="/img/Game_Fishing/parent-fishing.webp"
+              alt="Fishing"
+              width={373}
+              height={373}
+            />
           </div>
           <div>
-            <h2 className="flex items-center w-full gap-2 text-lg flex-col font-[900] uppercase my-2 md:mt-5 md:mb-8 md:flex-row md:text-xl lg:text-2xl">
+            <h2 className="flex items-center w-full gap-2 text-lg flex-col font-[900] uppercase my-2 md:mt-5 md:mb-0 md:flex-row md:text-xl lg:text-2xl">
               <div className="h-[1px] bg-[#8F92B0] flex-grow hidden sm:block"></div>
               <span className="text-center md:whitespace-nowrap md:px-2">
                 The emergence of fishing games
               </span>
               <div className="h-[1px] bg-[#8F92B0] flex-grow hidden sm:block"></div>
             </h2>
-            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-4">
-              <div className="border-1 border-dashed flex items-center justify-center rounded-md md:w-[180px] md:h-[180px]">
-                Image
+            <div className="grid grid-cols-2 lg:grid-cols-4 gap-4">
+              <div className="flex items-center justify-center rounded-md md:w-[180px] md:h-[180px]">
+                <Image
+                  src="/img/Game_Fishing/fishing-all-star fishing.webp"
+                  alt="Fishing all star"
+                  width={180}
+                  height={180}
+                  className="lg:self-end"
+                />
               </div>
-              <div className="border-1 border-dashed flex items-center justify-center rounded-md md:w-[180px] md:h-[180px]">
-                Image
+              <div className="flex items-center justify-center rounded-md md:w-[180px] md:h-[180px]">
+                <Image
+                  src="/img/Game_Fishing/fishing-bombing fishing.webp"
+                  alt="Fishing bombing"
+                  width={180}
+                  height={180}
+                  className="lg:self-end"
+                />
               </div>
-              <div className="border-1 border-dashed flex items-center justify-center rounded-md md:w-[180px] md:h-[180px]">
-                Image
+              <div className="flex items-center justify-center rounded-md md:w-[180px] md:h-[180px]">
+                <Image
+                  src="/img/Game_Fishing/fishing-fortune king jackpot.webp"
+                  alt="Fishing Fortune King Jockpot"
+                  width={180}
+                  height={180}
+                  className="lg:self-end"
+                />
               </div>
-              <div className="border-1 border-dashed flex items-center justify-center rounded-md md:w-[180px] md:h-[180px]">
-                Image
+              <div className="flex items-center justify-center rounded-md md:w-[180px] md:h-[180px]">
+                <Image
+                  src="/img/Game_Fishing/fishing-happy fishing.webp"
+                  alt="Fishing Happy"
+                  width={180}
+                  height={180}
+                  className="lg:self-end"
+                />
               </div>
-              <div className="border-1 border-dashed flex items-center justify-center rounded-md md:w-[180px] md:h-[180px]">
-                Image
+              <div className="flex items-center justify-center rounded-md md:w-[180px] md:h-[180px]">
+                <Image
+                  src="/img/Game_Fishing/fishing-jackpot fishing.webp"
+                  alt="Fishing Jackpot"
+                  width={180}
+                  height={180}
+                  className="lg:self-start"
+                />
               </div>
-              <div className="border-1 border-dashed flex items-center justify-center rounded-md md:w-[180px] md:h-[180px]">
-                Image
+              <div className="flex items-center justify-center rounded-md md:w-[180px] md:h-[180px]">
+                <Image
+                  src="/img/Game_Fishing/fishing-mega fishing.webp"
+                  alt="Fishing mega"
+                  width={180}
+                  height={180}
+                  className="lg:self-start"
+                />
               </div>
-              <div className="border-1 border-dashed flex items-center justify-center rounded-md md:w-[180px] md:h-[180px]">
-                Image
+              <div className="flex items-center justify-center rounded-md md:w-[180px] md:h-[180px]">
+                <Image
+                  src="/img/Game_Fishing/fishing-ocean king jackpot.webp"
+                  alt="Fishing ocean king jackpot"
+                  width={180}
+                  height={180}
+                  className="lg:self-start"
+                />
               </div>
-              <div className="border-1 border-dashed flex items-center justify-center rounded-md md:w-[180px] md:h-[180px]">
-                Image
+              <div className="flex items-center justify-center rounded-md md:w-[180px] md:h-[180px]">
+                <Image
+                  src="/img/Game_Fishing/fishing-royal fishing.webp"
+                  alt="Fishing royal"
+                  width={180}
+                  height={180}
+                  className="lg:self-start"
+                />
               </div>
             </div>
-            <div className="w-full flex items-center justify-center mt-2 md:mt-8">
+            <div className="w-full flex items-center justify-center mt-5 md:mt-8">
               <Link
                 href="#"
                 className="bg-[linear-gradient(135deg,#991111_0%,#f60015_50%,#991111_100%)] px-4 py-2 rounded shadow-md text-center
@@ -78,8 +132,8 @@ export default function FishingGuide() {
             </div>
           </div>
         </div>
-        <div>
-          <div>
+        <div className="mt-5 md:mt-0">
+          <div className="text-justify md:text-left">
             <p className="mb-2 md:my-4">
               Quickly rising to be one of the most popular categories in the
               business, fishing games have swept the realm of online gaming.
