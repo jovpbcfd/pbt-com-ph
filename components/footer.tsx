@@ -39,19 +39,19 @@ export default function Footer() {
                 <span className="px-3">|</span> CARDS
               </Link>
               <Link
-                href="#"
+                href="/fishing-games"
                 className="flex items-center gap-2 transition-transform transform duration-300 hover:scale-105 hover:underline"
               >
                 <span className="px-3">|</span> FISHING
               </Link>
               <Link
-                href="#"
+                href="/sports"
                 className="flex items-center gap-2 transition-transform transform duration-300 hover:scale-105 hover:underline"
               >
                 <span className="px-3">|</span> SPORTS
               </Link>
               <Link
-                href="#"
+                href="/lottery"
                 className="flex items-center gap-2 transition-transform transform duration-300 hover:scale-105 hover:underline"
               >
                 <span className="px-3">|</span> LOTTERY
