@@ -74,8 +74,8 @@ export default function SportsGuide() {
               </div>
               <div className="flex items-center justify-center rounded-md md:w-[200px] md:h-[200px]">
                 <Image
-                  src="/img/Game_Sports/sports- esport.webp"
-                  alt="Sports Esports"
+                  src="/img/Game_Sports/sports- IM esport.webp"
+                  alt="Sports IM Esports"
                   width={200}
                   height={200}
                 />
