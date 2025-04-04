@@ -1,4 +1,5 @@
 import Link from "next/link";
+import Image from "next/image";
 
 export default function GuideToCardGames() {
   return (
@@ -12,7 +13,7 @@ export default function GuideToCardGames() {
           </span>
           <div className="h-[1px] bg-[#8F92B0] flex-grow hidden sm:block"></div>
         </h1>
-        <div>
+        <div className="text-justify md:text-left">
           <p className="mb-2 md:mb-4">
             With different games appealing to gamers all around, the realm of
             online gambling has experienced amazing expansion over the years.
@@ -27,44 +28,97 @@ export default function GuideToCardGames() {
           </p>
         </div>
         <div className="mt-4 flex flex-col justify-between gap-4 md:mb-8 md:flex-row">
-          <div className="w-full self-center border-1 border-dashed flex items-center justify-center rounded-md md:w-[373px] md:h-[373px]">
-            Image
+          <div className="w-full self-center flex items-center justify-center rounded-md md:w-[373px] md:h-[373px]">
+            <Image
+              src="/img/Game_Cards/parent-card games.webp"
+              alt="Card Games"
+              width={373}
+              height={373}
+            />
           </div>
           <div>
-            <h2 className="flex items-center w-full gap-2 text-lg flex-col font-[900] uppercase my-2 md:mt-5 md:mb-8 md:flex-row md:text-xl lg:text-2xl">
+            <h2 className="flex items-center w-full gap-2 text-lg flex-col font-[900] uppercase my-2 md:mt-5 md:mb-0 md:flex-row md:text-xl lg:text-2xl">
               <div className="h-[1px] bg-[#8F92B0] flex-grow hidden sm:block"></div>
               <span className="text-center md:whitespace-nowrap md:px-2">
                 Introducing Panalobet Card Games
               </span>
               <div className="h-[1px] bg-[#8F92B0] flex-grow hidden sm:block"></div>
             </h2>
-            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-4">
-              <div className="border-1 border-dashed flex items-center justify-center rounded-md md:w-[180px] md:h-[180px]">
-                Image
+            <div className="grid grid-cols-2 lg:grid-cols-4 gap-4">
+              <div className="flex items-center justify-center rounded-md md:w-[180px] md:h-[180px]">
+                <Image
+                  src="/img/Game_Cards/card-blackjack lucky ladies.webp"
+                  alt="Card Black Jack lucky ladies"
+                  width={180}
+                  height={180}
+                  className="lg:self-end"
+                />
               </div>
-              <div className="border-1 border-dashed flex items-center justify-center rounded-md md:w-[180px] md:h-[180px]">
-                Image
+              <div className="flex items-center justify-center rounded-md md:w-[180px] md:h-[180px]">
+                <Image
+                  src="/img/Game_Cards/card-caribbean.webp"
+                  alt="Card Caribbean stud poker"
+                  width={180}
+                  height={180}
+                  className="lg:self-end"
+                />
               </div>
-              <div className="border-1 border-dashed flex items-center justify-center rounded-md md:w-[180px] md:h-[180px]">
-                Image
+              <div className="flex items-center justify-center rounded-md md:w-[180px] md:h-[180px]">
+                <Image
+                  src="/img/Game_Cards/card-mini flush.webp"
+                  alt="Card Mini Flush"
+                  width={180}
+                  height={180}
+                  className="lg:self-end"
+                />
               </div>
-              <div className="border-1 border-dashed flex items-center justify-center rounded-md md:w-[180px] md:h-[180px]">
-                Image
+              <div className="flex items-center justify-center rounded-md md:w-[180px] md:h-[180px]">
+                <Image
+                  src="/img/Game_Cards/card-pusoy go.webp"
+                  alt="Card Pusoy go"
+                  width={180}
+                  height={180}
+                  className="lg:self-end"
+                />
               </div>
-              <div className="border-1 border-dashed flex items-center justify-center rounded-md md:w-[180px] md:h-[180px]">
-                Image
+              <div className="flex items-center justify-center rounded-md md:w-[180px] md:h-[180px]">
+                <Image
+                  src="/img/Game_Cards/card-sic bo.webp"
+                  alt="Card sicbo"
+                  width={180}
+                  height={180}
+                  className="lg:self-start"
+                />
               </div>
-              <div className="border-1 border-dashed flex items-center justify-center rounded-md md:w-[180px] md:h-[180px]">
-                Image
+              <div className="flex items-center justify-center rounded-md md:w-[180px] md:h-[180px]">
+                <Image
+                  src="/img/Game_Cards/card-teen paiti.webp"
+                  alt="Card teen paiti"
+                  width={180}
+                  height={180}
+                  className="lg:self-start"
+                />
               </div>
-              <div className="border-1 border-dashed flex items-center justify-center rounded-md md:w-[180px] md:h-[180px]">
-                Image
+              <div className="flex items-center justify-center rounded-md md:w-[180px] md:h-[180px]">
+                <Image
+                  src="/img/Game_Cards/card-tongits go.webp"
+                  alt="Card tongits go"
+                  width={180}
+                  height={180}
+                  className="lg:self-start"
+                />
               </div>
-              <div className="border-1 border-dashed flex items-center justify-center rounded-md md:w-[180px] md:h-[180px]">
-                Image
+              <div className="flex items-center justify-center rounded-md md:w-[180px] md:h-[180px]">
+                <Image
+                  src="/img/Game_Cards/card-video poker.webp"
+                  alt="Card video poker"
+                  width={180}
+                  height={180}
+                  className="lg:self-start"
+                />
               </div>
             </div>
-            <div className="w-full flex items-center justify-center mt-2 md:mt-8">
+            <div className="w-full flex items-center justify-center mt-2 md:mt-0">
               <Link
                 href="#"
                 className="bg-[linear-gradient(135deg,#991111_0%,#f60015_50%,#991111_100%)] px-4 py-2 rounded shadow-md text-center
@@ -77,8 +131,8 @@ export default function GuideToCardGames() {
             </div>
           </div>
         </div>
-        <div>
-          <div>
+        <div className="mt-5 md:mt-0">
+          <div className="text-justify md:text-left">
             <p className="mb-2 md:my-4">
               Long held in particular importance in the gambling sector are card
               games. Their simple guidelines are simply one way they enthrall

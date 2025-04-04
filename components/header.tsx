@@ -167,19 +167,19 @@ export default function Header() {
               <span>🃏</span> CARDS
             </Link>
             <Link
-              href="#"
+              href="/fishing-games"
               className="flex items-center gap-2 transition-transform transform duration-300 hover:scale-105 hover:underline"
             >
               <span>🎣</span> FISHING
             </Link>
             <Link
-              href="#"
+              href="/sports"
               className="flex items-center gap-2 transition-transform transform duration-300 hover:scale-105 hover:underline"
             >
               <span>⚽</span> SPORTS
             </Link>
             <Link
-              href="#"
+              href="/lottery"
               className="flex items-center gap-2 transition-transform transform duration-300 hover:scale-105 hover:underline"
             >
               <span>🎟️</span> LOTTERY
