@@ -67,11 +67,11 @@ export default function ReliableAndFairness() {
       <div className="grid grid-cols-1 gap-2 mt-4 md:mt-16 md:gap-8 md:grid-cols-2">
         <div className="text-center">
           <div className="mb-2 md:mb-6">
-            <div className="flex items-center justify-center rounded-md mx-auto md:w-[200px] md:h-[200px]">
+            <div className="flex items-center justify-center rounded-md mx-auto md:w-[300px] md:h-[300px]">
               <Image
                 src="/img/Section_Reliable/Great Variety of Games for Any Player.webp"
-                width={200}
-                height={200}
+                width={300}
+                height={300}
                 alt="Great Variety of Games"
               />
             </div>
@@ -113,11 +113,11 @@ export default function ReliableAndFairness() {
 
         <div className="text-center">
           <div className="mb-2 md:mb-6">
-            <div className="flex items-center justify-center rounded-md mx-auto md:w-[200px] md:h-[200px]">
+            <div className="flex items-center justify-center rounded-md mx-auto md:w-[300px] md:h-[300px]">
               <Image
                 src="/img/Section_Reliable/Multilingual Platform.webp"
-                width={200}
-                height={200}
+                width={300}
+                height={300}
                 alt="Multilingual Platform"
               />
             </div>
@@ -158,11 +158,11 @@ export default function ReliableAndFairness() {
 
         <div className="text-center">
           <div className="mb-2 md:mb-6">
-            <div className="flex items-center justify-center rounded-md mx-auto md:w-[200px] md:h-[200px]">
+            <div className="flex items-center justify-center rounded-md mx-auto md:w-[300px] md:h-[300px]">
               <Image
                 src="/img/Section_Reliable/Many Ways to Pay Easy Transactions for Great Gaming.webp"
-                width={200}
-                height={200}
+                width={300}
+                height={300}
                 alt="Great Gaming"
               />
             </div>
@@ -200,11 +200,11 @@ export default function ReliableAndFairness() {
 
         <div className="text-center">
           <div className="mb-2 md:mb-6">
-            <div className="flex items-center justify-center rounded-md mx-auto md:w-[200px] md:h-[200px]">
+            <div className="flex items-center justify-center rounded-md mx-auto md:w-[300px] md:h-[300px]">
               <Image
                 src="/img/Section_Reliable/The Best Protection.webp"
-                width={200}
-                height={200}
+                width={300}
+                height={300}
                 alt="The Best Protection"
               />
             </div>
