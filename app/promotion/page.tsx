@@ -1,14 +1,13 @@
 import Link from "next/link";
 import Image from "next/image";
-import SportsBetting from "./_components/sports-betting";
-import SportsGuide from "./_components/sports-guide";
-import SportsMechanism from "./_components/sports-mechanism";
-import SportsPayout from "./_components/sports-payout";
-import SportsBettingVariation from "./_components/sports-variation";
-import SportsBettingSystem from "./_components/sports-betting-system";
-import SportsGamble from "./_components/sports-gamble";
+import Discover from "./_components/discover";
+import Awards from "./_components/awards";
+import BigWinning from "./_components/winning";
+import SpinWheel from "./_components/spin";
+import MethodicalGuide from "./_components/methodicalGuide";
+import Typical from "./_components/typical";
+import TermsAndConditions from "./_components/tac";
 import Conclusion from "./_components/conclusion";
-import FeaturedNews from "@/components/featured-news";
 
 export default function Page() {
   return (
@@ -18,14 +17,14 @@ export default function Page() {
           <div>
             <div className="flex items-center md:w-[556px] md:h-[206px]">
               <Image
-                src="/img/banner/sports/image_168936.webp"
-                alt="Sports & E-Sports 110% First Deposit Bonus PHP3,300"
+                src="/img/banner/promotion/image_225880.webp"
+                alt="5% Reload Gcash"
                 width={556}
                 height={206}
               />
             </div>
             <p className="font-bold text-center md:text-left md:mb-4 md:text-xl">
-              Sports & E-Sports 110% First Deposit Bonus PHP3,300
+              5% Reload Gcash
             </p>
             <div className="mt-4 flex items-center justify-center md:justify-normal md:mt-3">
               <Link
@@ -40,14 +39,14 @@ export default function Page() {
           <div>
             <div className="flex items-center md:w-[556px] md:h-[206px]">
               <Image
-                src="/img/banner/sports/image_199873.webp"
-                alt="Sports Weekly Cashback up to 8.66%"
+                src="/img/banner/promotion/image_225865.webp"
+                alt="8% Reload PayMaya"
                 width={556}
                 height={206}
               />
             </div>
             <p className="font-bold text-center md:text-left md:mb-4 md:text-xl">
-              Sports Weekly Cashback up to 8.66%
+              8% Reload PayMaya
             </p>
             <div className="mt-4 flex items-center justify-center md:justify-normal md:mt-3">
               <Link
@@ -61,15 +60,14 @@ export default function Page() {
           </div>
         </div>
       </section>
-      <SportsGuide />
-      <SportsBettingVariation />
-      <SportsMechanism />
-      <SportsPayout />
-      <SportsBetting />
-      <SportsBettingSystem />
-      <SportsGamble />
+      <Discover />
+      <Awards />
+      <BigWinning />
+      <SpinWheel />
+      <MethodicalGuide />
+      <Typical />
+      <TermsAndConditions />
       <Conclusion />
-      <FeaturedNews />
     </>
   );
 }

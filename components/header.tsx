@@ -184,18 +184,18 @@ export default function Header() {
             >
               <span>🎟️</span> LOTTERY
             </Link>
-            {/* <Link
-              href="#"
+            <Link
+              href="/promotion"
               className="flex items-center gap-2 transition-transform transform duration-300 hover:scale-105 hover:underline"
             >
               <span>🎉</span> PROMOTIONS
             </Link>
             <Link
-              href="#"
+              href="/blogs"
               className="flex items-center gap-2 transition-transform transform duration-300 hover:scale-105 hover:underline"
             >
-              <span>📰</span> NEWS
-            </Link> */}
+              <span>📰</span> BLOGS
+            </Link>
           </div>
           <div className="flex justify-center items-center mt-4 gap-4 mx-auto md:hidden">
             <Link
