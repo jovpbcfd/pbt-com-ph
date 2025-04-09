@@ -46,8 +46,13 @@ export default function BigWinning() {
             </div>
           </div>
           <div className="md:w-full md:pb-2">
-            <div className="flex items-center justify-center flex items-center justify-center border-1 md:mx-auto border-dashed md:w-[550px] md:h-[220px]">
-              Image
+            <div className="md:mx-auto md:w-[750px] md:h-[240px]">
+              <Image
+                src="/img/banner/promotion/WEEKLY CHALLENGE_PROMOTION.webp"
+                alt="Banner 1"
+                width={750}
+                height={240}
+              />
             </div>
             <div className="md:py-4 md:text-center">
               <h3 className="text-md uppercase md:font-[800] md:text-xl">
