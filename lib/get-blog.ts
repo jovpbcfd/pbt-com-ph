@@ -2,7 +2,7 @@ import { client } from './sanity-client'
 
 
 const POST_QUERY = `{
-    "currentPost": *[_type == "post-mega" && slug.current == $slug][0] {
+    "currentPost": *[_type == "post-mnwlwin" && slug.current == $slug][0] {
       title,
       body,
       author->{
@@ -22,7 +22,7 @@ const POST_QUERY = `{
         }
       }
     },
-    "otherBlogs": *[_type == "post-mega" && slug.current != $slug] | order(publishedAt desc)[0...3] {
+    "otherBlogs": *[_type == "post-mnwlwin" && slug.current != $slug] | order(publishedAt desc)[0...3] {
       _id,
       title,
       description,

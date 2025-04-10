@@ -44,7 +44,7 @@ export default async function Page({
   const currentPage = parseInt(params?.page || "1", 10);
   const start = (currentPage - 1) * POSTS_PER_PAGE;
   const posts = await client.fetch<Post[]>(
-    `*[_type == "post-mega"] | order(publishedAt desc) [${start}...${start + POSTS_PER_PAGE}] {
+    `*[_type == "post-mnwlwin"] | order(publishedAt desc) [${start}...${start + POSTS_PER_PAGE}] {
       _id,
       title,
       slug,
@@ -68,7 +68,7 @@ export default async function Page({
   );
 
   const totalPosts = await client.fetch<number>(
-    'count(*[_type == "post-mega"])'
+    'count(*[_type == "post-mnwlwin"])'
   );
 
   return (
@@ -88,8 +88,9 @@ export default async function Page({
           </>
         )}
       </ul>
-
-      <Pagination totalPosts={totalPosts} postsPerPage={POSTS_PER_PAGE} />
+      {posts.length > 6 && (
+        <Pagination totalPosts={totalPosts} postsPerPage={POSTS_PER_PAGE} />
+      )}
     </section>
   );
 }
