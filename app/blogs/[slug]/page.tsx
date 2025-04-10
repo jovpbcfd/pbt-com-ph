@@ -9,7 +9,7 @@ import { SquareArrowOutUpRight } from "lucide-react";
 
 export async function generateStaticParams() {
   const query = "*[_type == $type]{ slug }";
-  const params = { type: "post-mega" };
+  const params = { type: "post-mnwlwin" };
 
   const posts = await client.fetch(query, params);
 
