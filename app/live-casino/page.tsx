@@ -21,10 +21,10 @@ export default function Page() {
                 height={206}
               />
             </div>
-            <p className="font-bold text-center md:text-left md:mb-4 md:text-xl">
+            <p className="font-bold text-center md:mb-4 md:text-xl">
               7.99% Live Casino Unlimited Reload
             </p>
-            <div className="mt-4 flex items-center justify-center md:justify-normal md:mt-3">
+            <div className="mt-4 flex items-center justify-center md:mt-3">
               <Link
                 href="#"
                 className="px-6 py-2 font-bold bg-[linear-gradient(135deg,#991111_0%,#f60015_50%,#991111_100%)] rounded text-center transition-transform transform
@@ -43,10 +43,10 @@ export default function Page() {
                 height={206}
               />
             </div>
-            <p className="font-bold text-center  md:text-left md:mb-4 md:text-xl">
+            <p className="font-bold text-center  md:mb-4 md:text-xl">
               0.7% Live Casino Daily Unlimited Cash Rebate
             </p>
-            <div className="mt-4 flex items-center justify-center md:justify-normal md:mt-3">
+            <div className="mt-4 flex items-center justify-center  md:mt-3">
               <Link
                 href="#"
                 className="px-6 py-2 font-bold bg-[linear-gradient(135deg,#991111_0%,#f60015_50%,#991111_100%)] rounded text-center transition-transform transform
