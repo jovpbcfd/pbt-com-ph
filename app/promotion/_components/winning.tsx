@@ -1,3 +1,4 @@
+import Image from "next/image";
 export default function BigWinning() {
   return (
     <section className="max-w-[1230px] mx-auto text-white p-2 md:p-0">
@@ -22,11 +23,16 @@ export default function BigWinning() {
         </div>
         <div className="flex flex-col items-center justify-center gap-3 md:gap-6">
           <div className="md:w-full md:pb-2">
-            <div className="flex items-center justify-center flex items-center justify-center border-1 border-dashed md:mx-auto md:w-[550px] md:h-[220px]">
-              Image
+            <div className="md:mx-auto md:w-[750px] md:h-[240px]">
+              <Image
+                src="/img/banner/promotion/VIP Bonus Aimed at P1,000,000 Reward for Loyalty 750x430.webp"
+                alt="Banner 1"
+                width={750}
+                height={240}
+              />
             </div>
             <div className="md:py-4 md:text-center">
-              <h3 className="text-md uppercase md:font-[800] md:text-md">
+              <h3 className="text-md uppercase md:font-[800] md:text-xl">
                 1. Daily Awards: Your Daily Excite Dose
               </h3>
               <p className="md:mt-4">
@@ -40,11 +46,16 @@ export default function BigWinning() {
             </div>
           </div>
           <div className="md:w-full md:pb-2">
-            <div className="flex items-center justify-center flex items-center justify-center border-1 md:mx-auto border-dashed md:w-[550px] md:h-[220px]">
-              Image
+            <div className="md:mx-auto md:w-[750px] md:h-[240px]">
+              <Image
+                src="/img/banner/promotion/WEEKLY CHALLENGE_PROMOTION.webp"
+                alt="Banner 1"
+                width={750}
+                height={240}
+              />
             </div>
             <div className="md:py-4 md:text-center">
-              <h3 className="text-md uppercase md:font-[800] md:text-md">
+              <h3 className="text-md uppercase md:font-[800] md:text-xl">
                 2. Weekly Challenge: Test Your Knowledge and Get Paid Big
               </h3>
               <p className="md:mt-4">
@@ -60,11 +71,16 @@ export default function BigWinning() {
             </div>
           </div>
           <div className="md:w-full md:pb-2">
-            <div className="flex items-center justify-center flex items-center justify-center border-1 border-dashed md:mx-auto md:w-[550px] md:h-[220px]">
-              Image
+            <div className="md:mx-auto md:w-[750px] md:h-[240px]">
+              <Image
+                src="/img/banner/promotion/DAILY AWARD 750X240.webp"
+                alt="Banner 1"
+                width={750}
+                height={240}
+              />
             </div>
             <div className="md:py-4 md:text-center">
-              <h3 className="text-md uppercase md:font-[800] md:text-md">
+              <h3 className="text-md uppercase md:font-[800] md:text-xl">
                 3. VIP Bonus Aimed at P1,000,000: Reward for Loyalty
               </h3>
               <p className="md:mt-4">
