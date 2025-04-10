@@ -1,31 +1,31 @@
 import { client } from "@/lib/sanity-client";
 import type { Post } from "./_components/blog-list";
 import BlogList from "./_components/blog-list";
-import Link from "next/link";
+// import Link from "next/link";
 import Pagination from "./_components/pagination";
 
-const POSTS_QUERY = `*[_type == "post-mega"] | order(publishedAt desc) {
-  _id,
-  title,
-  slug,
-  author->{
-     name, 
-     image {
-      asset->{
-        url
-      }
-    }
-    },
-  publishedAt,
-  description,
-  mainImage {
-     alt,
-    asset->{
-      url
-     
-    }
-  }
-}`;
+// const POSTS_QUERY = `*[_type == "post-mega"] | order(publishedAt desc) {
+//   _id,
+//   title,
+//   slug,
+//   author->{
+//      name,
+//      image {
+//       asset->{
+//         url
+//       }
+//     }
+//     },
+//   publishedAt,
+//   description,
+//   mainImage {
+//      alt,
+//     asset->{
+//       url
+
+//     }
+//   }
+// }`;
 
 export const revalidate = 5;
 // export const dynamic = "force-dynamic";
@@ -36,7 +36,8 @@ const POSTS_PER_PAGE = 6;
 export default async function Page({
   searchParams,
 }: {
-  searchParams?: Record<string, string>;
+  // eslint-disable-next-line @typescript-eslint/no-explicit-any
+  searchParams?: Promise<any>;
 }) {
   // const posts = await client.fetch(POSTS_QUERY);
   const params = await searchParams;
