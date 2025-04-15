@@ -1,3 +1,5 @@
+import Image from "next/image";
+
 export default function GamesBenefits() {
   return (
     <section className="max-w-[1230px] mx-auto text-white p-2 md:p-0">
@@ -10,8 +12,8 @@ export default function GamesBenefits() {
           lot of reasons. Among the advantages we provide are just a handful
           here:
         </p>
-        <div>
-          <ul className="list-disc pl-15 md:pl-10">
+        <div className="flex items-center flex-col lg:flex-row">
+          <ul className="list-disc pl-15 md:pl-10 lg:w-[50%]">
             <li>
               <span className="font-bold">Confined and Safe Platform</span>
               <p className="mb-2 md:my-2">
@@ -50,6 +52,14 @@ export default function GamesBenefits() {
               </p>
             </li>
           </ul>
+          <div className="w-full self-center flex items-center justify-center md:ml-26 md:rounded-md lg:w-[400px] lg:h-[400px] lg:w-[50%]">
+            <Image
+              src="/img/Game_Fishing/Playing Panalobet Fishing-fishing.webp"
+              width={400}
+              height={400}
+              alt="How games funcion fishing"
+            />
+          </div>
         </div>
         <div className="mt-4">
           <h3 className="text-md uppercase md:font-[800] md:text-md">

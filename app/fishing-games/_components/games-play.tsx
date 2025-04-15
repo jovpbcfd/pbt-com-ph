@@ -1,3 +1,5 @@
+import Image from "next/image";
+
 export default function GamesPlay() {
   return (
     <section className="max-w-[1230px] mx-auto text-white p-2 md:p-0">
@@ -40,44 +42,57 @@ export default function GamesPlay() {
               </li>
             </ul>
           </div> */}
-        <div>
-          <h3 className="text-md uppercase md:font-[800] md:text-md">
-            First step: Open an account
-          </h3>
-          <p className="mb-2 md:my-4">
-            Making an account on Panalobet comes first in your Fishing
-            Adventure. To start the procedure just visit our website and click
-            the "Registration" button. You will have to supply simple details
-            such as your login, password, and email address. You can log in once
-            your account is configured and begin to explore the realm of Fishing
-            games.
-          </p>
-        </div>
-        <div>
-          <h3 className="text-md uppercase md:font-[800] md:text-md">
-            Second step: Fund depositing
-          </h3>
-          <p className="mb-2 md:my-4">
-            You will have to fund your account if you wish to play real money
-            Fishing games. Among the several safe and handy payment options
-            available from Panalobet are credit/debit cards, popular e-wallets,
-            and bank transfers. Just pick your chosen approach, make the
-            necessary deposit, and the money will show up in your account. Fast
-            processing of transactions lets you start playing without any
-            waiting.
-          </p>
-        </div>
-        <div>
-          <h3 className="text-md uppercase md:font-[800] md:text-md">
-            Third: Select Your Game
-          </h3>
-          <p className="mb-2 md:my-4">
-            Once your account is loaded, peruse our large array of Fishing
-            games. Every game has a different subject, graphics, and mechanics;
-            so, you can choose the one that most suits your taste. Panalobet
-            offers a game for everyone, regardless of their preferred level of
-            activity—from low stakes adventure to leisurely fishing.
-          </p>
+        <div className="flex items-center flex-col lg:flex-row">
+          <div className="w-full lg:w-[50%]">
+            <div>
+              <h3 className="text-md uppercase md:font-[800] md:text-md">
+                First step: Open an account
+              </h3>
+              <p className="mb-2 md:my-4">
+                Making an account on Panalobet comes first in your Fishing
+                Adventure. To start the procedure just visit our website and
+                click the "Registration" button. You will have to supply simple
+                details such as your login, password, and email address. You can
+                log in once your account is configured and begin to explore the
+                realm of Fishing games.
+              </p>
+            </div>
+            <div>
+              <h3 className="text-md uppercase md:font-[800] md:text-md">
+                Second step: Fund depositing
+              </h3>
+              <p className="mb-2 md:my-4">
+                You will have to fund your account if you wish to play real
+                money Fishing games. Among the several safe and handy payment
+                options available from Panalobet are credit/debit cards, popular
+                e-wallets, and bank transfers. Just pick your chosen approach,
+                make the necessary deposit, and the money will show up in your
+                account. Fast processing of transactions lets you start playing
+                without any waiting.
+              </p>
+            </div>
+            <div>
+              <h3 className="text-md uppercase md:font-[800] md:text-md">
+                Third: Select Your Game
+              </h3>
+              <p className="mb-2 md:my-4">
+                Once your account is loaded, peruse our large array of Fishing
+                games. Every game has a different subject, graphics, and
+                mechanics; so, you can choose the one that most suits your
+                taste. Panalobet offers a game for everyone, regardless of their
+                preferred level of activity—from low stakes adventure to
+                leisurely fishing.
+              </p>
+            </div>
+          </div>
+          <div className="w-full self-center flex items-center justify-center md:ml-26 md:rounded-md lg:w-[400px] lg:h-[400px] lg:w-[50%]">
+            <Image
+              src="/img/Game_Fishing/Playing Fishing Games at Panalobet-fishing.webp"
+              width={400}
+              height={400}
+              alt="How games funcion fishing"
+            />
+          </div>
         </div>
         <div>
           <h3 className="text-md uppercase md:font-[800] md:text-md">
