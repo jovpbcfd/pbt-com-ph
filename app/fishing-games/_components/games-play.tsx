@@ -43,7 +43,7 @@ export default function GamesPlay() {
             </ul>
           </div> */}
         <div className="flex items-center flex-col lg:flex-row">
-          <div className="w-full lg:w-[50%]">
+          <div className="w-full lg:w-[70%]">
             <div>
               <h3 className="text-md uppercase md:font-[800] md:text-md">
                 First step: Open an account
@@ -85,11 +85,11 @@ export default function GamesPlay() {
               </p>
             </div>
           </div>
-          <div className="w-full self-center flex items-center justify-center md:ml-26 md:rounded-md lg:w-[400px] lg:h-[400px] lg:w-[50%]">
+          <div className="w-full self-center flex items-center justify-center md:rounded-md lg:w-[500px] lg:h-[500px]">
             <Image
               src="/img/Game_Fishing/Playing Fishing Games at Panalobet-fishing.webp"
-              width={400}
-              height={400}
+              width={500}
+              height={500}
               alt="How games funcion fishing"
             />
           </div>

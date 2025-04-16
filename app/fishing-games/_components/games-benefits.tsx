@@ -13,7 +13,7 @@ export default function GamesBenefits() {
           here:
         </p>
         <div className="flex items-center flex-col lg:flex-row">
-          <ul className="list-disc pl-15 md:pl-10 lg:w-[50%]">
+          <ul className="list-disc pl-15 md:pl-10 lg:w-[70%]">
             <li>
               <span className="font-bold">Confined and Safe Platform</span>
               <p className="mb-2 md:my-2">
@@ -52,11 +52,11 @@ export default function GamesBenefits() {
               </p>
             </li>
           </ul>
-          <div className="w-full self-center flex items-center justify-center md:ml-26 md:rounded-md lg:w-[400px] lg:h-[400px] lg:w-[50%]">
+          <div className="w-full self-center flex items-center justify-center md:rounded-md lg:w-[500px] lg:h-[500px]">
             <Image
               src="/img/Game_Fishing/Playing Panalobet Fishing-fishing.webp"
-              width={400}
-              height={400}
+              width={500}
+              height={500}
               alt="How games funcion fishing"
             />
           </div>
