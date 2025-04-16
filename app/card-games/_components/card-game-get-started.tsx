@@ -11,8 +11,8 @@ export default function CardGamesGetStarted() {
           interface makes jumping right in easy. Here is a detailed walk-through
           guide on starting to play cards games at Panalobet:
         </p>
-        <div>
-          <ul className="list-decimal pl-15 md:pl-10">
+        <div className="flex flex-col items-center justify-between lg:flex-row">
+          <ul className="list-decimal pl-15 w-full md:pl-10 lg:w-[70%]">
             <li>
               <p className="mb-2 md:my-4">
                 Create an account by first just registering for a free one on
@@ -50,6 +50,9 @@ export default function CardGamesGetStarted() {
               </p>
             </li>
           </ul>
+          <div className="w-full border border-dashed flex items-center justify-center rounded-md lg:w-[300px] lg:h-[300px]">
+            Image
+          </div>
         </div>
       </div>
     </section>

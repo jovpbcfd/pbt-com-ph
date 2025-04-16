@@ -10,8 +10,8 @@ export default function BenefitsOfslotGames() {
           among the best online casinos available for users from the Philippines
           and elsewhere.
         </p>
-        <div>
-          <ul className="list-disc pl-15 md:pl-10">
+        <div className="flex flex-col items-center justify-between lg:flex-row">
+          <ul className="list-disc pl-15 w-full md:pl-10 lg:w-[70%]">
             <li>
               <span className="font-[900]">
                 Entertainment and enjoyment and fun
@@ -51,6 +51,9 @@ export default function BenefitsOfslotGames() {
               </p>
             </li>
           </ul>
+          <div className="w-full border border-dashed flex items-center mx-auto justify-center rounded-md lg:w-[300px] lg:h-[300px]">
+            Image
+          </div>
         </div>
       </div>
     </section>

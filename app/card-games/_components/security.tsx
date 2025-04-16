@@ -15,27 +15,33 @@ export default function SecurityAndTrust() {
           systems that give player protection first priority and support
           responsible gaming habits into use.
         </p>
-        <div>
-          <h3 className="text-md uppercase md:font-[800] md:text-md">
-            Modern Security Measures State-of-the-Art
-          </h3>
-          <p className="mb-2 md:my-4">
-            Our operations revolve on security. Our players' personal and
-            financial data is totally our first concern. Panalobet uses
-            cutting-edge encryption technologies both meeting and surpassing
-            industry requirements to guarantee this. SSL encryption guards all
-            sensitive information—including personal data and payment
-            information—such that all data passed between players and our
-            platform is secret and safe.
-          </p>
-          <p className="mb-2 md:my-4">
-            Our security systems are always changing to match newly arising
-            hazards. To protect players and the integrity of the games, we also
-            use modern anti-fraud tools that identify and stop any dubious
-            behavior on our platform. Our aim is to provide a worry-free gaming
-            environment in which players may concentrate on the thrill of the
-            games free from thought for security breaches or dishonest behavior.
-          </p>
+        <div className="flex flex-col items-center justify-between lg:flex-row">
+          <div className="w-full lg:w-[70%]">
+            <h3 className="text-md uppercase md:font-[800] md:text-md">
+              Modern Security Measures State-of-the-Art
+            </h3>
+            <p className="mb-2 md:my-4">
+              Our operations revolve on security. Our players' personal and
+              financial data is totally our first concern. Panalobet uses
+              cutting-edge encryption technologies both meeting and surpassing
+              industry requirements to guarantee this. SSL encryption guards all
+              sensitive information—including personal data and payment
+              information—such that all data passed between players and our
+              platform is secret and safe.
+            </p>
+            <p className="mb-2 md:my-4">
+              Our security systems are always changing to match newly arising
+              hazards. To protect players and the integrity of the games, we
+              also use modern anti-fraud tools that identify and stop any
+              dubious behavior on our platform. Our aim is to provide a
+              worry-free gaming environment in which players may concentrate on
+              the thrill of the games free from thought for security breaches or
+              dishonest behavior.
+            </p>
+          </div>
+          <div className="w-full border border-dashed flex items-center justify-center rounded-md lg:w-[300px] lg:h-[300px]">
+            Image
+          </div>
         </div>
         <div>
           <h3 className="text-md uppercase md:font-[800] md:text-md">
