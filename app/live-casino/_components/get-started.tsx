@@ -9,8 +9,8 @@ export default function GetStarted() {
           Starting with live casino games at Panalobet is an easy process
           requiring just a few quick steps:
         </p>
-        <div>
-          <ul className="list-decimal pl-15 md:pl-10">
+        <div className="flex flex-col items-center justify-between lg:flex-row">
+          <ul className="list-decimal pl-15 w-full md:pl-10 lg:w-[70%]">
             <li>
               <p className="mb-2 md:my-4">
                 Start by registering for an account on the Panalobet website.
@@ -42,6 +42,9 @@ export default function GetStarted() {
               </p>
             </li>
           </ul>
+          <div className="w-full border border-dashed flex items-center mx-auto justify-center rounded-md lg:w-[250px] lg:h-[250px]">
+            Image
+          </div>
         </div>
       </div>
     </section>
