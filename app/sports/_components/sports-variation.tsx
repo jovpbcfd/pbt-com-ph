@@ -12,35 +12,40 @@ export default function SportsBettingVariation() {
           significant one. Our platform guarantees something for everyone
           regardless of your choices or betting techniques.
         </p>
-        <div>
-          <h3 className="text-md uppercase md:font-[800] md:text-md">
-            Conventional Betting Possibilities
-          </h3>
-          <p className="mb-2 md:my-4">
-            Both casual gamblers and those seeking simple methods of wading
-            highly value traditional betting alternatives. These contain:
-          </p>
-          <div>
-            <ul className="list-disc pl-15 md:pl-10">
-              <li>
-                <p className="mb-2 md:my-4">
-                  The most fundamental type of betting, moneyline bets let you
-                  just choose which team or athlete would win.
-                </p>
-              </li>
-              <li>
-                <p className="mb-2 md:my-4">
-                  Point spread bets let the underdog have a cushion to balance
-                  the odds while the favorite has to win by a specific margin
-                  for the bet to be successful.
-                </p>
-              </li>
-            </ul>
+        <div className="flex flex-col items-center justify-between lg:flex-row">
+          <div className="w-full lg:w-[70%]">
+            <h3 className="text-md uppercase md:font-[800] md:text-md">
+              Conventional Betting Possibilities
+            </h3>
+            <p className="mb-2 md:my-4">
+              Both casual gamblers and those seeking simple methods of wading
+              highly value traditional betting alternatives. These contain:
+            </p>
+            <div>
+              <ul className="list-disc pl-15 md:pl-10">
+                <li>
+                  <p className="mb-2 md:my-4">
+                    The most fundamental type of betting, moneyline bets let you
+                    just choose which team or athlete would win.
+                  </p>
+                </li>
+                <li>
+                  <p className="mb-2 md:my-4">
+                    Point spread bets let the underdog have a cushion to balance
+                    the odds while the favorite has to win by a specific margin
+                    for the bet to be successful.
+                  </p>
+                </li>
+              </ul>
+            </div>
+            <p className="mb-2 md:my-4">
+              In these bets, you stake on whether the sportsbook's designated
+              value will be over or under the overall score of the game.
+            </p>
           </div>
-          <p className="mb-2 md:my-4">
-            In these bets, you stake on whether the sportsbook's designated
-            value will be over or under the overall score of the game.
-          </p>
+          <div className="w-full border border-dashed flex items-center justify-center rounded-md lg:w-[300px] lg:h-[300px]">
+            Image
+          </div>
         </div>
         <div>
           <h3 className="text-md uppercase md:font-[800] md:text-md">

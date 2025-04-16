@@ -21,37 +21,45 @@ export default function LotteryPlay() {
               start playing after your account is configured.
             </p>
           </div>
-          <div>
-            <h3 className="text-md uppercase md:font-[800] md:text-md">
-              Second step: create a deposit.
-            </h3>
-            <p className="mb-2 md:my-4">
-              You must fund your account before you can lay your first wager.
-              Among the other payment options Panalobet provides are credit and
-              debit cards, e-values, and bank transfers. Select the one that
-              best fits you and safely make your deposit.
-            </p>
-          </div>
-          <div>
-            <h3 className="text-md uppercase md:font-[800] md:text-md">
-              Third step: pick a fishing lottery game.
-            </h3>
-            <p className="mb-2 md:my-4">
-              Look over our large assortment of fishing lottery games and pick
-              the one that most appeals to you. Take your time to choose the
-              ideal game for you as every one of them presents unique
-              characteristics, chances, and reward pools.
-            </p>
-          </div>
-          <div>
-            <h3 className="text-md uppercase md:font-[800] md:text-md">
-              Fourth step: Choosing your catch or numbers.
-            </h3>
-            <p className="mb-2 md:my-4">
-              After deciding on your game, it's time to decide on your quantity
-              or kind of fish you wish to catch. You might decide on your own
-              choices or go with a random "quick pick." The decision is yours!
-            </p>
+          <div className="flex flex-col items-center justify-between lg:flex-row">
+            <div className="w-full lg:w-[70%]">
+              <div>
+                <h3 className="text-md uppercase md:font-[800] md:text-md">
+                  Second step: create a deposit.
+                </h3>
+                <p className="mb-2 md:my-4">
+                  You must fund your account before you can lay your first
+                  wager. Among the other payment options Panalobet provides are
+                  credit and debit cards, e-values, and bank transfers. Select
+                  the one that best fits you and safely make your deposit.
+                </p>
+              </div>
+              <div>
+                <h3 className="text-md uppercase md:font-[800] md:text-md">
+                  Third step: pick a fishing lottery game.
+                </h3>
+                <p className="mb-2 md:my-4">
+                  Look over our large assortment of fishing lottery games and
+                  pick the one that most appeals to you. Take your time to
+                  choose the ideal game for you as every one of them presents
+                  unique characteristics, chances, and reward pools.
+                </p>
+              </div>
+              <div>
+                <h3 className="text-md uppercase md:font-[800] md:text-md">
+                  Fourth step: Choosing your catch or numbers.
+                </h3>
+                <p className="mb-2 md:my-4">
+                  After deciding on your game, it's time to decide on your
+                  quantity or kind of fish you wish to catch. You might decide
+                  on your own choices or go with a random "quick pick." The
+                  decision is yours!
+                </p>
+              </div>
+            </div>
+            <div className="w-full border border-dashed flex items-center mx-auto justify-center rounded-md lg:w-[300px] lg:h-[300px]">
+              Image
+            </div>
           </div>
           <div>
             <h3 className="text-md uppercase md:font-[800] md:text-md">

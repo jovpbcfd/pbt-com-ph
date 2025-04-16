@@ -1,3 +1,5 @@
+import Image from "next/image";
+
 export default function GetStarted() {
   return (
     <section className="max-w-[1230px] mx-auto text-white p-2 md:p-0">
@@ -42,8 +44,13 @@ export default function GetStarted() {
               </p>
             </li>
           </ul>
-          <div className="w-full border border-dashed flex items-center mx-auto justify-center rounded-md lg:w-[250px] lg:h-[250px]">
-            Image
+          <div className="w-full flex items-center mx-auto justify-center rounded-md lg:w-[300px] lg:h-[300px]">
+            <Image
+              src="/img/Game_Live Casino/How to Get Started with Panalobet Live Casino.webp"
+              width={300}
+              height={300}
+              alt="How to Get Started with Panalobet Live Casino"
+            />
           </div>
         </div>
       </div>

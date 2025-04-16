@@ -18,8 +18,8 @@ export default function SportsMechanism() {
             sporting event and then laying a wager based on that forecast. The
             procedure consists in a few easy steps:
           </p>
-          <div>
-            <ul className="list-disc pl-15 md:pl-10">
+          <div className="flex flex-col items-center justify-between lg:flex-row">
+            <ul className="list-disc pl-15 w-full md:pl-10 lg:w-[70%]">
               <li>
                 <p className="mb-2 md:my-4">
                   Choose Your Sport and Event. First decide which sport and
@@ -51,6 +51,9 @@ export default function SportsMechanism() {
                 </p>
               </li>
             </ul>
+            <div className="w-full border border-dashed flex items-center justify-center rounded-md lg:w-[300px] lg:h-[300px]">
+              Image
+            </div>
           </div>
         </div>
       </div>

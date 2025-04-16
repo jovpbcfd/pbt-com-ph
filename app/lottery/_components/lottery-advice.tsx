@@ -9,8 +9,8 @@ export default function LotteryAdvice() {
           Although fishing lottery is mostly a matter of chance, there are
           various techniques you may apply to raise your chances of success:
         </p>
-        <div>
-          <ul className="list-decimal pl-15 md:pl-10">
+        <div className="flex flex-col items-center justify-between lg:flex-row">
+          <ul className="list-decimal pl-15 w-full md:pl-10 lg:w-[70%]">
             <li>
               <span className="font-bold">Join a Lottery Pool</span>
               <p className="mb-2 md:my-4">
@@ -38,6 +38,9 @@ export default function LotteryAdvice() {
               </p>
             </li>
           </ul>
+          <div className="w-full border border-dashed flex items-center mx-auto justify-center rounded-md lg:w-[300px] lg:h-[300px]">
+            Image
+          </div>
         </div>
       </div>
     </section>

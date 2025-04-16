@@ -1,3 +1,5 @@
+import Image from "next/image";
+
 export default function SpecialFeatures() {
   return (
     <section className="max-w-[1230px] mx-auto text-white p-2 md:p-0">
@@ -15,11 +17,11 @@ export default function SpecialFeatures() {
           <ul className="list-decimal pl-15 md:pl-10">
             <li>
               <div>
-                <span className="font-[900]">
-                  Real Dealers and Interactive Streaming:
-                </span>
                 <div className="flex flex-col items-center justify-between lg:flex-row">
                   <div className="w-full lg:w-[70%]">
+                    <span className="font-[900]">
+                      Real Dealers and Interactive Streaming:
+                    </span>
                     <p className="mb-2 md:my-4">
                       Real dealers running the live casino games are one of the
                       main attractions of this kind of gaming. These
@@ -39,8 +41,13 @@ export default function SpecialFeatures() {
                       totally enjoy the action free from interruption.
                     </p>
                   </div>
-                  <div className="w-full border border-dashed flex items-center mx-auto justify-center rounded-md lg:w-[250px] lg:h-[250px]">
-                    Image
+                  <div className="w-full flex items-center mx-auto justify-center rounded-md lg:w-[300px] lg:h-[300px]">
+                    <Image
+                      src="/img/Game_Live Casino/Panalobet's Live Casino's Special Features.webp"
+                      width={300}
+                      height={300}
+                      alt="Live Casino's Special Features"
+                    />
                   </div>
                 </div>
               </div>
@@ -75,11 +82,11 @@ export default function SpecialFeatures() {
               </p>
             </li>
             <li>
-              <span className="font-[900]">
-                Social Interaction and Enchanting Environment
-              </span>
               <div className="flex flex-col items-center justify-between lg:flex-row">
                 <div className="w-full lg:w-[70%]">
+                  <span className="font-[900]">
+                    Social Interaction and Enchanting Environment
+                  </span>
                   <p className="mb-2 md:my-4">
                     The social contact live casino games provide is one major
                     benefit. The live chat tool at Panalobet allows users to
@@ -99,8 +106,13 @@ export default function SpecialFeatures() {
                     outcomes.
                   </p>
                 </div>
-                <div className="w-full border border-dashed flex items-center mx-auto justify-center rounded-md lg:w-[250px] lg:h-[250px]">
-                  Image
+                <div className="w-full flex items-center mx-auto justify-center rounded-md lg:w-[300px] lg:h-[300px]">
+                  <Image
+                    src="/img/Game_Live Casino/Social Interaction and Enchanting Environment.webp"
+                    width={300}
+                    height={300}
+                    alt="Social Interaction and Enchanting Environment"
+                  />
                 </div>
               </div>
             </li>
