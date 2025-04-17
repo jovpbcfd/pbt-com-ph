@@ -1,7 +1,9 @@
+import Image from "next/image";
+
 export default function GameTypes() {
   return (
     <section className="max-w-[1230px] mx-auto text-white p-2 md:p-0">
-      <div className="my-2 md:mb-4 md:mt-5">
+      <div className="my-2 md:mb-4 md:mt-15">
         <h2 className="font-[900] uppercase text-lg md:text-xl lg:text-3xl">
           Slot Game Types at Panalobet
         </h2>
@@ -13,8 +15,13 @@ export default function GameTypes() {
         </p>
         <div className="grid grid-cols-1 gap-3 place-items-center lg:gap-y-6 lg:gap-x-3 lg:grid-cols-2">
           <div>
-            <div className="w-full border border-dashed flex items-center mx-auto justify-center rounded-md lg:w-[250px] lg:h-[250px]">
-              Image
+            <div className="w-full flex items-center mx-auto justify-center rounded-md lg:w-[250px] lg:h-[250px]">
+              <Image
+                src="/img/Game_slots/(6) Simple Slots-slots.webp"
+                width={250}
+                height={250}
+                alt="Simple Slots"
+              />
             </div>
             <div className="text-center">
               <h3 className="text-md font-bold uppercase md:font-[800] md:my-4 md:text-xl">
@@ -30,8 +37,13 @@ export default function GameTypes() {
             </div>
           </div>
           <div>
-            <div className="w-full border border-dashed flex items-center  mx-auto justify-center rounded-md lg:w-[250px] lg:h-[250px]">
-              Image
+            <div className="w-full flex items-center  mx-auto justify-center rounded-md lg:w-[250px] lg:h-[250px]">
+              <Image
+                src="/img/Game_slots/(7) Video Slots-slots.webp"
+                width={250}
+                height={250}
+                alt="Video Slots"
+              />
             </div>
             <div className="text-center">
               <h3 className="text-md font-bold uppercase md:font-[800] md:text-xl md:my-4">

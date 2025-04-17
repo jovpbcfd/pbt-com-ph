@@ -1,3 +1,5 @@
+import Image from "next/image";
+
 export default function HowItWorks() {
   return (
     <section className="max-w-[1230px] mx-auto text-white p-2 md:p-0">
@@ -11,75 +13,9 @@ export default function HowItWorks() {
           along a payline. Still, there's a lot more to learn about how slots
           operate, especially in light of internet gaming.
         </p>
-        <div className="flex flex-col items-center justify-between lg:flex-row">
+        <div className="flex flex-col-reverse items-center justify-between lg:mb-5 lg:flex-row">
           <div className="w-full lg:w-[70%]">
-            <h3 className="text-md font-bold uppercase md:font-[800] md:text-xl">
-              Reels and Payment Lines
-            </h3>
-            <p className="mb-2 md:my-4">
-              While contemporary online slots might have anything from three to
-              nine or more reels, the classic slot machine featured three reels.
-              Every reel rotates on its own; the objective is to line up
-              matching symbols over one or more paylines.
-            </p>
-            <p className="mb-2 md:my-4">
-              Paylines are the routes across the reels that define winning
-              combos. While modern slots sometimes have several paylines in
-              varying configurations, classic slots let players win by simply
-              matching symbols along the central payline. These can comprise
-              straight lines, zigzag routes, even V-shaped or diagonal paths.
-            </p>
-            <p className="mb-2 md:my-4">
-              Certain slots additionally provide ways-to-win mechanisms whereby
-              players may win by landing matching symbols anywhere on
-              neighboring reels, therefore providing even more opportunities for
-              success.
-            </p>
-          </div>
-          <div className="w-full border border-dashed flex items-center justify-center rounded-md lg:w-[300px] lg:h-[300px]">
-            Image
-          </div>
-        </div>
-        <div className="flex flex-col items-center justify-between lg:flex-row">
-          <div className="w-full lg:w-[70%]">
-            <h3 className="text-md font-bold uppercase md:font-[800] md:text-xl">
-              Generators for Random Numbers (RNGs)
-            </h3>
-            <p className="mb-2 md:my-4">
-              Random Number Generators (RNGs) are essentially used in slot games
-              to guarantee fair play and randomness in the outcomes of every
-              spin. Comprising complicated computer algorithms meant to produce
-              an apparently random sequence of integers, RNGs are These figures
-              match the results seen on the reels of the slot machine, therefore
-              guaranteeing that no two spins are identical. This technology
-              ensures that every spin is independent, so the result of one spin
-              has no effect on the result of the next, hence avoiding any trends
-              or predictability from developing.
-            </p>
-            <p className="mb-2 md:my-4">
-              RNGs are absolutely important in slot games since they provide a
-              level playing field for every participant. It would be impossible
-              to guarantee fairness without RNGs, hence game integrity could be
-              compromised. Independent auditors routinely examine these
-              algorithms to ensure their equity and to certify that their
-              outputs are totally random and objective. RNGs' constant use makes
-              slot games visible, so players can be sure the games are not
-              rigged or controlled.
-            </p>
-            <p className="mb-2 md:my-4">
-              Certain slots additionally provide ways-to-win mechanisms whereby
-              players may win by landing matching symbols anywhere on
-              neighboring reels, therefore providing even more opportunities for
-              success.
-            </p>
-          </div>
-          <div className="w-full border border-dashed flex items-center justify-center rounded-md lg:w-[300px] lg:h-[300px]">
-            Image
-          </div>
-        </div>
-        <div className="flex flex-col items-center justify-between lg:flex-row">
-          <div className="w-full lg:w-[70%]">
-            <h3 className="text-md font-bold uppercase md:font-[800] md:text-xl">
+            <h3 className="text-md font-bold text-center uppercase md:text-left md:font-[800] md:text-xl">
               Symbols and Bonuses
             </h3>
             <p className="mb-2 md:my-4">
@@ -118,13 +54,28 @@ export default function HowItWorks() {
               needed.
             </p>
           </div>
-          <div className="w-full border border-dashed flex items-center justify-center rounded-md lg:w-[300px] lg:h-[300px]">
-            Image
+          <div className="w-full flex items-center justify-center rounded-md lg:w-[300px] lg:h-[300px]">
+            <Image
+              src="/img/Game_slots/(3) Symbols and Bonuses-slots.webp"
+              width={300}
+              height={300}
+              alt="Symbols and Bonuses"
+              className="mx-auto"
+            />
           </div>
         </div>
-        <div className="flex flex-col items-center justify-between lg:flex-row">
-          <div className="w-full lg:w-[70%]">
-            <h3 className="text-md font-bold uppercase md:font-[800] md:text-xl">
+        <div className="grid grid-cols-1 lg:grid-cols-2 lg:gap-x-10 lg:gap-y-5">
+          <div className="text-justify">
+            <div>
+              <Image
+                src="/img/Game_slots/(4) Bonus Runs and Unique Characteristics-slots.webp"
+                width={300}
+                height={300}
+                alt="Bonus Runs and Unique Characteristics"
+                className="mx-auto"
+              />
+            </div>
+            <h3 className="text-md text-center font-bold uppercase md:font-[800] md:text-xl">
               Bonus Runs and Unique Characteristics
             </h3>
             <p className="mb-2 md:my-4">
@@ -136,7 +87,7 @@ export default function HowItWorks() {
               activate extra features, such multipliers, which raise the
               player's chances of winning, during free spins.
             </p>
-            <p className="mb-2 md:my-4">
+            <p className="mb-2 md:mb-4">
               Depending on the game, multiples of a particular factor—such as
               2x, 5x, or even higher—can greatly increase a player's
               compensation from their winnings. Certain slots also feature
@@ -145,7 +96,7 @@ export default function HowItWorks() {
               completing puzzles, choosing objects for awards, or any kind of
               participation that adds more movement to the gaming experience.
             </p>
-            <p className="mb-2 md:my-4">
+            <p className="mb-2 md:mb-4">
               RNGs, different symbols, and bonus features taken together help to
               create the thrills and excitement of slot games. With the extra
               bonuses, players have many chances to enhance their winnings, so
@@ -156,13 +107,58 @@ export default function HowItWorks() {
               slots.
             </p>
           </div>
-          <div className="w-full border border-dashed flex items-center justify-center rounded-md lg:w-[300px] lg:h-[300px]">
-            Image
+          <div className="text-justify">
+            <div>
+              <Image
+                src="/img/Game_slots/(2) RNGs-slots.webp"
+                width={300}
+                height={300}
+                alt="RNGs"
+                className="mx-auto"
+              />
+            </div>
+            <h3 className="text-md text-center font-bold uppercase md:font-[800] md:text-xl">
+              Generators for Random Numbers (RNGs)
+            </h3>
+            <p className="mb-2 md:my-4">
+              Random Number Generators (RNGs) are essentially used in slot games
+              to guarantee fair play and randomness in the outcomes of every
+              spin. Comprising complicated computer algorithms meant to produce
+              an apparently random sequence of integers, RNGs are These figures
+              match the results seen on the reels of the slot machine, therefore
+              guaranteeing that no two spins are identical. This technology
+              ensures that every spin is independent, so the result of one spin
+              has no effect on the result of the next, hence avoiding any trends
+              or predictability from developing.
+            </p>
+            <p className="mb-2 md:my-4">
+              RNGs are absolutely important in slot games since they provide a
+              level playing field for every participant. It would be impossible
+              to guarantee fairness without RNGs, hence game integrity could be
+              compromised. Independent auditors routinely examine these
+              algorithms to ensure their equity and to certify that their
+              outputs are totally random and objective. RNGs' constant use makes
+              slot games visible, so players can be sure the games are not
+              rigged or controlled.
+            </p>
+            <p className="mb-2 md:my-4">
+              Certain slots additionally provide ways-to-win mechanisms whereby
+              players may win by landing matching symbols anywhere on
+              neighboring reels, therefore providing even more opportunities for
+              success.
+            </p>
           </div>
-        </div>
-        <div className="flex flex-col items-center justify-between lg:flex-row">
-          <div className="w-full lg:w-[70%]">
-            <h3 className="text-md font-bold uppercase md:font-[800] md:text-xl">
+          <div className="text-justify">
+            <div>
+              <Image
+                src="/img/Game_slots/(5) Jackpotting-slots.webp"
+                width={300}
+                height={300}
+                alt="Jackpotting Slots"
+                className="mx-auto"
+              />
+            </div>
+            <h3 className="text-md text-center font-bold uppercase md:font-[800] md:text-xl">
               Jackpotting
             </h3>
             <p className="mb-2 md:my-4">
@@ -176,8 +172,38 @@ export default function HowItWorks() {
               life-changing levels.
             </p>
           </div>
-          <div className="w-full border border-dashed flex items-center justify-center rounded-md lg:w-[300px] lg:h-[200px]">
-            Image
+          <div className="text-justify">
+            <div>
+              <Image
+                src="/img/Game_slots/(1) Reels and Payment Lines-slots.webp"
+                width={300}
+                height={300}
+                alt="Reels and Payments Lines Slots"
+                className="mx-auto"
+              />
+            </div>
+            <h3 className="text-md text-center font-bold uppercase md:font-[800] md:text-xl">
+              Reels and Payment Lines
+            </h3>
+            <p className="mb-2 md:my-4">
+              While contemporary online slots might have anything from three to
+              nine or more reels, the classic slot machine featured three reels.
+              Every reel rotates on its own; the objective is to line up
+              matching symbols over one or more paylines.
+            </p>
+            <p className="mb-2 md:my-4">
+              Paylines are the routes across the reels that define winning
+              combos. While modern slots sometimes have several paylines in
+              varying configurations, classic slots let players win by simply
+              matching symbols along the central payline. These can comprise
+              straight lines, zigzag routes, even V-shaped or diagonal paths.
+            </p>
+            <p className="mb-2 md:my-4">
+              Certain slots additionally provide ways-to-win mechanisms whereby
+              players may win by landing matching symbols anywhere on
+              neighboring reels, therefore providing even more opportunities for
+              success.
+            </p>
           </div>
         </div>
       </div>

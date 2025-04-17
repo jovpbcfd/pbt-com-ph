@@ -1,4 +1,4 @@
-// import Image from "next/image";
+import Image from "next/image";
 
 export default function CustomaryCardGames() {
   return (
@@ -29,8 +29,13 @@ export default function CustomaryCardGames() {
               are the setup and cleanup required for classic card games.
             </p>
           </div>
-          <div className="w-full border border-dashed flex items-center justify-center rounded-md lg:w-[300px] lg:h-[300px]">
-            Image
+          <div className="w-full flex items-center justify-center rounded-md lg:w-[350px] lg:h-[350px]">
+            <Image
+              src="/img/Game_Cards/Customary Card Games1 copy.webp"
+              width={350}
+              height={350}
+              alt="Customary Card Games"
+            />
           </div>
         </div>
       </div>
