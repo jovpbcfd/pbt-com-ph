@@ -1,3 +1,5 @@
+import Image from "next/image";
+
 export default function OnlineCardGames() {
   return (
     <section className="max-w-[1230px] mx-auto text-white p-2 md:p-0">
@@ -37,8 +39,13 @@ export default function OnlineCardGames() {
               physical area without in-person interaction.
             </p>
           </div>
-          <div className="w-full border border-dashed flex items-center justify-center rounded-md lg:w-[300px] lg:h-[300px]">
-            Image
+          <div className="w-full flex items-center justify-center rounded-md lg:w-[300px] lg:h-[300px]">
+            <Image
+              src="/img/Game_Cards/Online Card Games1.webp"
+              width={300}
+              height={300}
+              alt="Online Card Games"
+            />
           </div>
         </div>
       </div>

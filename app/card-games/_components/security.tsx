@@ -1,3 +1,5 @@
+import Image from "next/image";
+
 export default function SecurityAndTrust() {
   return (
     <section className="max-w-[1230px] mx-auto text-white p-2 md:p-0">
@@ -39,8 +41,13 @@ export default function SecurityAndTrust() {
               dishonest behavior.
             </p>
           </div>
-          <div className="w-full border border-dashed flex items-center justify-center rounded-md lg:w-[300px] lg:h-[300px]">
-            Image
+          <div className="w-full flex items-center justify-center rounded-md lg:w-[300px] lg:h-[300px]">
+            <Image
+              src="/img/Game_Cards/Modern Security Measures State-of-the-Art1.webp"
+              width={300}
+              height={300}
+              alt="Modern Security Measures State of the Art"
+            />
           </div>
         </div>
         <div>
