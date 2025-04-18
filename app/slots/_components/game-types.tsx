@@ -59,8 +59,13 @@ export default function GameTypes() {
             </div>
           </div>
           <div>
-            <div className="w-full border border-dashed flex items-center  mx-auto justify-center rounded-md lg:w-[250px] lg:h-[250px]">
-              Image
+            <div className="w-full flex items-center  mx-auto justify-center rounded-md lg:w-[250px] lg:h-[250px]">
+              <Image
+                src="/img/Game_slots/(8) Progressive Slots-slots.webp"
+                width={250}
+                height={250}
+                alt="Progressive Slots"
+              />
             </div>
             <div className="text-center">
               <h3 className="text-md font-bold uppercase md:font-[800] md:my-4 md:text-xl">
@@ -78,8 +83,13 @@ export default function GameTypes() {
             </div>
           </div>
           <div className="lg:mb-auto">
-            <div className="w-full border border-dashed flex items-center mx-auto justify-center rounded-md lg:w-[250px] lg:h-[250px]">
-              Image
+            <div className="w-full flex items-center mx-auto justify-center rounded-md lg:w-[250px] lg:h-[250px]">
+              <Image
+                src="/img/Game_slots/(9) Slots with Theme-slots.webp"
+                width={250}
+                height={250}
+                alt="Slots with theme"
+              />
             </div>
             <div className="text-center">
               <h3 className="text-md font-bold uppercase md:font-[800] md:my-4 md:text-xl">
