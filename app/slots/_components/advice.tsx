@@ -1,3 +1,5 @@
+import Image from "next/image";
+
 export default function AdviceOnSlotGames() {
   return (
     <section className="max-w-[1230px] mx-auto text-white p-2 md:p-0">
@@ -59,8 +61,13 @@ export default function AdviceOnSlotGames() {
               </p>
             </li>
           </ul>
-          <div className="w-full border border-dashed flex items-center mx-auto justify-center rounded-md lg:w-[300px] lg:h-[300px]">
-            Image
+          <div className="w-full flex items-center mx-auto justify-center rounded-md lg:w-[300px] lg:h-[300px]">
+            <Image
+              src="/img/Game_slots/(11) Advice on Slots Games-slots.webp"
+              width={300}
+              height={300}
+              alt="Advice on slots games"
+            />
           </div>
         </div>
       </div>
