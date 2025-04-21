@@ -1,3 +1,5 @@
+import Image from "next/image";
+
 export default function CardGameReview() {
   return (
     <section className="max-w-[1230px] mx-auto text-white p-2 md:p-0">
@@ -50,8 +52,13 @@ export default function CardGameReview() {
               </p>
             </li>
           </ul>
-          <div className="w-full border border-dashed flex items-center justify-center rounded-md lg:w-[300px] lg:h-[300px]">
-            Image
+          <div className="w-full flex items-center justify-center rounded-md lg:w-[300px] lg:h-[300px]">
+            <Image
+              src="/img/Game_Cards/Review of Panalobet Card Games Richness of Choices.webp"
+              width={300}
+              height={300}
+              alt="Review of Panalobet Card Games Richness of Choices"
+            />
           </div>
         </div>
         <p className="mb-2 md:my-4">

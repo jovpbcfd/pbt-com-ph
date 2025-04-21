@@ -1,3 +1,5 @@
+import Image from "next/image";
+
 export default function SportsBetting() {
   return (
     <section className="max-w-[1230px] mx-auto text-white p-2 md:p-0">
@@ -43,8 +45,13 @@ export default function SportsBetting() {
               </ul>
             </div>
           </div>
-          <div className="w-full border border-dashed flex items-center justify-center rounded-md lg:w-[300px] lg:h-[300px]">
-            Image
+          <div className="w-full flex items-center justify-center rounded-md lg:w-[300px] lg:h-[300px]">
+            <Image
+              src="/img/Game_Sports/3. Conventional vs Internet Sports Betting.webp"
+              width={300}
+              height={300}
+              alt="Conventional vs Internet Sports Betting"
+            />
           </div>
         </div>
       </div>
