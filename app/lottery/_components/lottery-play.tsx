@@ -1,3 +1,5 @@
+import Image from "next/image";
+
 export default function LotteryPlay() {
   return (
     <section className="max-w-[1230px] mx-auto text-white p-2 md:p-0">
@@ -57,8 +59,13 @@ export default function LotteryPlay() {
                 </p>
               </div>
             </div>
-            <div className="w-full border border-dashed flex items-center mx-auto justify-center rounded-md lg:w-[300px] lg:h-[300px]">
-              Image
+            <div className="w-full flex items-center mx-auto justify-center rounded-md lg:w-[300px] lg:h-[300px]">
+              <Image
+                src="/img/Game_Lottery/Play Fishing Lottery at Panalobet.webp"
+                width={300}
+                height={300}
+                alt="Play Fishing Lottery at Panalobet"
+              />
             </div>
           </div>
           <div>
