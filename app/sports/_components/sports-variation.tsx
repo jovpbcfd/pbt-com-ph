@@ -1,3 +1,5 @@
+import Image from "next/image";
+
 export default function SportsBettingVariation() {
   return (
     <section className="max-w-[1230px] mx-auto text-white p-2 md:p-0">
@@ -43,8 +45,13 @@ export default function SportsBettingVariation() {
               value will be over or under the overall score of the game.
             </p>
           </div>
-          <div className="w-full border border-dashed flex items-center justify-center rounded-md lg:w-[300px] lg:h-[300px]">
-            Image
+          <div className="w-full flex items-center justify-center rounded-md lg:w-[300px] lg:h-[300px]">
+            <Image
+              src="/img/Game_Sports/1. Sports Betting Variations Made available at Panalobet.webp"
+              width={300}
+              height={300}
+              alt="Sports Betting Variations Made available at Panalobet"
+            />
           </div>
         </div>
         <div>
