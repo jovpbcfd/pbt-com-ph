@@ -9,7 +9,7 @@ export default function Footer() {
           <Image
             src="/img/PANALOBET-LOGO.webp"
             alt="PANALOBET"
-            width={120}
+            width={200}
             height={40}
           />
           <div>
