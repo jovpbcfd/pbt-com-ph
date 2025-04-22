@@ -102,7 +102,7 @@ export default function Header() {
             <Image
               src="/img/PANALOBET-LOGO.webp"
               alt="PANALOBET"
-              width={120}
+              width={200}
               height={40}
             />
             <div className="hidden md:flex gap-4">
