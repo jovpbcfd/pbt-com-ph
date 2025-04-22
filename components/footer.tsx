@@ -6,12 +6,14 @@ export default function Footer() {
     <footer className="bg-[#252B73]">
       <div className="max-w-[1230px] mx-auto text-white p-2 md:p-10">
         <div className="flex flex-col items-center md:pb-8 lg:flex-row lg:justify-between">
-          <Image
-            src="/img/PANALOBET-LOGO.webp"
-            alt="PANALOBET"
-            width={200}
-            height={40}
-          />
+          <Link href="/">
+            <Image
+              src="/img/PANALOBET-LOGO.webp"
+              alt="PANALOBET"
+              width={200}
+              height={40}
+            />
+          </Link>
           <div>
             <nav className="flex flex-col bg-[#252B73] text-sm py-2 px-4 lg:justify-end lg:flex-row">
               <Link
