@@ -5,8 +5,8 @@ export default function Discover() {
         <h1 className="flex items-center w-full gap-2 text-lg flex-col font-[900] uppercase md:mb-2 md:flex-row md:text-xl lg:text-2xl">
           <div className="h-[1px] bg-[#8F92B0] flex-grow hidden sm:block"></div>
           <span className="text-center md:w-[50%] md:px-2">
-            The Ultimate Guide to Sports Betting: A Universe of Thrills and
-            Strategic Possibilities by Panalobet
+            Panalobet Promotions: Discover Unmatched Rewards and Thrilling
+            Possibilities
           </span>
           <div className="h-[1px] bg-[#8F92B0] flex-grow hidden sm:block"></div>
         </h1>
