@@ -99,12 +99,14 @@ export default function Header() {
       >
         <div className="w-full max-w-[1230px] mx-auto text-white">
           <div className="flex justify-between items-center p-2 md:py-2 md:px-[22px]">
-            <Image
-              src="/img/PANALOBET-LOGO.webp"
-              alt="PANALOBET"
-              width={200}
-              height={40}
-            />
+            <Link href="/">
+              <Image
+                src="/img/PANALOBET-LOGO.webp"
+                alt="PANALOBET"
+                width={200}
+                height={40}
+              />
+            </Link>
             <div className="hidden md:flex gap-4">
               <Link
                 href="#"

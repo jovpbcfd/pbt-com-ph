@@ -30,7 +30,7 @@ export default function BlogList({ post }: { post: Post }) {
       href={`/blogs/${post.slug.current}`}
       className="block group"
     >
-      <div className="rounded-2xl overflow-hidden shadow-md bg-[#262e86] text-white hover:shadow-lg transition-shadow duration-300 h-[400px]">
+      <div className="rounded-2xl overflow-hidden shadow-md bg-[#262e86] text-white hover:shadow-lg transition-shadow duration-300 h-[360px]">
         <div className="relative h-48 w-full">
           <Image
             src={urlFor(post?.mainImage).width(827).height(435).url()}
@@ -40,10 +40,10 @@ export default function BlogList({ post }: { post: Post }) {
           />
         </div>
         <div className="p-4 space-y-2">
-          <h2 className="text-xl font-[900] text-white group-hover:text-blue-600 transition-colors duration-200">
+          <h2 className="text-xl font-[900] text-white group-hover:text-blue-600 transition-colors duration-200 line-clamp-1">
             {post.title}
           </h2>
-          <p className="text-sm text-white line-clamp-3">{post.description}</p>
+          <p className="text-sm text-white line-clamp-2">{post.description}</p>
           <div className="flex items-center gap-3 pt-2">
             <Image
               src={urlFor(post.author.image.asset.url)
