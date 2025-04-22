@@ -1,3 +1,5 @@
+import Image from "next/image";
+
 export default function SportsGamble() {
   return (
     <section className="max-w-[1230px] mx-auto text-white p-2 md:p-0">
@@ -40,8 +42,13 @@ export default function SportsGamble() {
                 </li>
               </ul>
             </div>
-            <div className="w-full border border-dashed flex items-center justify-center rounded-md lg:w-[300px] lg:h-[300px]">
-              Image
+            <div className="w-full flex items-center justify-center rounded-md lg:w-[300px] lg:h-[300px]">
+              <Image
+                src="/img/Game_Sports/WHY GAMBLE WITH PANALOBET.webp"
+                width={300}
+                height={300}
+                alt="WHY GAMBLE WITH PANALOBE"
+              />
             </div>
           </div>
           <div>
