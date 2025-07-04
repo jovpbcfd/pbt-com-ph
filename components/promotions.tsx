@@ -5,15 +5,15 @@ export default function Promotions() {
     <section className="max-w-[1230px] mx-auto text-white p-2 md:p-0">
       <div className="md:mt-10">
         <h2 className="font-[900] uppercase text-lg md:text-xl lg:text-2xl">
-          Panalobet Promotions: Improving Your Gaming Enjoyment
+          How to Join the Promotions.
         </h2>
         <p className="my-2 md:my-4">
-          We at Panalobet appreciate our gamers and are dedicated to providing
-          them with the greatest gaming experience available. To help you spend
-          more time on the site, we thus provide a large spectrum of incentives,
-          bonuses, and discounts. Whether you are a novice player or an
-          experienced one, you will find interesting offers meant to raise your
-          chances of winning.
+          Panalobet promotions offer your ultimate chance to obtain exceptional
+          prizes while developing an immersive gaming adventure. The promotional
+          programs here give you more enjoyment and added value no matter how
+          experienced you are with the platform or new to it. The following easy
+          instructions help you maximize these outstanding offers. The following
+          instructions provide everything needed to begin.
         </p>
         <div className="grid grid-cols-1 gap-2 mt-4 md:mt-10 md:gap-4 md:grid-cols-2">
           <div className="text-center bg-[#252B73] rounded-md md:p-6">
@@ -27,15 +27,24 @@ export default function Promotions() {
                 />
               </div>
               <h3 className="text-md uppercase md:font-[800] mt-2 md:text-xl md:mt-6">
-                Good Bonus
+                1. Start. User account holders should select Login while new
+                members should pick Create to proceed.
               </h3>
             </div>
             <div className="mt-2 text-justify">
+              <h4 className="text-md text-center uppercase md:font-[700] md:text-lg md:mt-6 lg:p-2">
+                Sign Up Quickly and Securely
+              </h4>
               <p className="mb-2 p-2">
-                We want to welcome you kindly with a big bonus when you
-                initially join Panalobet. Our welcome bonus is meant to provide
-                you a boost right from the start so you may browse our platform
-                and try your hand at several games with extra money.
+                Account creation at Panalobet serves as the requirement for
+                participating in promotional activities. New users can easily
+                join the platform during their registration process. Users can
+                begin with minimal requirements such as entering their details
+                followed by account verification to start using the service.
+                From Panalobet Free 100 you will receive an exciting bonus that
+                gives your journey an early start. Claim this offer immediately
+                to access numerous games. Registered users who access the
+                application will find available promotions.
               </p>
             </div>
           </div>
@@ -50,59 +59,22 @@ export default function Promotions() {
                 />
               </div>
               <h3 className="text-md uppercase md:font-[800] mt-2 md:text-xl md:mt-6">
-                Cashback Promises
+                2. Users can access promotions by reading the section or
+                exploring it.
               </h3>
             </div>
             <div className="mt-2 text-justify">
+              <h4 className="text-md text-center uppercase md:font-[700] md:text-lg md:mt-6 lg:p-2">
+                Get the Latest offers updated.
+              </h4>
               <p className="mb-2 p-2">
-                Although losing can be annoying, we think you deserve a second
-                shot. Our cashback offers let you recoup some losses, thereby
-                enabling you to play longer and with greater confidence.
-              </p>
-            </div>
-          </div>
-          <div className="text-center bg-[#252B73] rounded-md md:p-6">
-            <div className="mb-2 md:mb-6">
-              <div className="flex items-center justify-center rounded-md mx-auto md:w-[300px] md:h-[300px]">
-                <Image
-                  src="/img/Promotions/Daily Checks-In.webp"
-                  width={300}
-                  height={300}
-                  alt="Daily Check In"
-                />
-              </div>
-              <h3 className="text-md uppercase md:font-[800] mt-2 md:text-xl md:mt-6">
-                Daily Checks-In
-              </h3>
-            </div>
-            <div className="mt-2 text-justify">
-              <p className="mb-2 p-2">
-                We value our devoted players and will pay daily check-in bonuses
-                to them. Every day log-in to your Panalobet account to claim
-                bonuses, free spins, and other great prizes.
-              </p>
-            </div>
-          </div>
-          <div className="text-center bg-[#252B73] rounded-md md:p-6">
-            <div className="mb-2 md:mb-6">
-              <div className="flex items-center justify-center rounded-md mx-auto md:w-[300px] md:h-[300px]">
-                <Image
-                  src="/img/Promotions/Spin the Wheel for Points.webp"
-                  width={300}
-                  height={300}
-                  alt="Spin the wheel"
-                />
-              </div>
-              <h3 className="text-md uppercase md:font-[800] mt-2 md:text-xl md:mt-6">
-                Spin the Wheel for Points
-              </h3>
-            </div>
-            <div className="mt-2 text-justify">
-              <p className="mb-2 p-2">
-                Apart from daily bonuses, Panalobet gives the opportunity to
-                spin the wheel for extra points, which can be redeemed for a
-                range of fantastic prizes like free spins, bonuses, and even
-                cash awards.
+                You can find the current promotions either on the website in its
+                "Promotions" section or inside the mobile application of
+                Panalobet. You can find various stimulating bonus options at
+                this spot such as welcome packages along with cashback discounts
+                and one-time event rewards. Each offer contains specific terms
+                and conditions which can be found by reading them completely to
+                determine your eligibility.
               </p>
             </div>
           </div>
@@ -111,21 +83,27 @@ export default function Promotions() {
           <div className="mb-2 md:mb-6">
             <div className="flex items-center justify-center rounded-md mx-auto md:w-[300px] md:h-[300px]">
               <Image
-                src="/img/Promotions/Holidays and Special Event Promos.webp"
+                src="/img/Promotions/Daily Checks-In.webp"
                 width={300}
                 height={300}
-                alt="Secial Event"
+                alt="Daily Check In"
               />
             </div>
             <h3 className="text-md uppercase md:font-[800] mt-2 md:text-xl md:mt-6">
-              Holidays and Special Event Promos
+              3. Opt-In and Start Playing
             </h3>
           </div>
           <div className="mt-2 text-justify">
+            <h4 className="text-md text-center uppercase md:font-[700] md:text-lg md:mt-6 lg:p-2">
+              Activate and Enjoy Rewards
+            </h4>
             <p className="mb-2 p-2">
-              We run special offers for holidays, celebrations, birthdays, and
-              other fantastic events all year long. These limited-time offers
-              give gamers a chance to pick unique perks and incentives.
+              All promotional activities need participants to perform either
+              button clicking or code entry. Participating in specific offers
+              could require a minimum required deposit amount or selected amount
+              of gameplay before activation occurs. Playing available games
+              commences after opting into rewards programs that offer bonus
+              credits and free spins resulting in cashback payments.
             </p>
           </div>
         </div>

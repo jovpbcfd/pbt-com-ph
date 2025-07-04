@@ -3,62 +3,57 @@ export default function MobileGaming() {
     <section className="max-w-[1230px] mx-auto text-white p-2 md:p-0">
       <div className="md:mt-10">
         <h2 className="font-[900] text-lg md:text-xl lg:text-2xl">
-          Mobile Gaming Using the Panalobet App: Handy at Your Fingers
+          Where Winning Begins in the Philippines
         </h2>
         <p className="mb-2 md:my-4">
-          Convenience is vital in the fast-paced world of today, hence Panalobet
-          created a completely ideal mobile app. The Panalobet app guarantees
-          that the excitement of gaming is always just a touch away by letting
-          users enjoy their preferred online casino games anywhere, anyhow. The
-          Panalobet mobile app is the ideal friend for on-the-go gaming whether
-          your daily commute, downtime at home, or hang-out with pals.
+          Panalobet presents a platform where gamers can experience maximum
+          enjoyment through entertainment combined with bonus features. All
+          players can select various games which suit their individual gaming
+          preferences. Our platform lets all users try various gaming
+          possibilities that consist of live casino play alongside Sabong
+          wagering while providing slot and fishing games for amusement. The
+          platform offers something beyond gaming entertainment. Panalobet
+          actively provides numerous valuable incentives to its players. Second
+          bonus opportunities are accompanied by welcome packages and daily
+          prizes inclusive of seasonal promotional offers as your gameplay
+          improves.
+        </p>
+
+        <p className="mb-2 md:my-4">
+          Panalobet delivers its platform as a protected space that ensures easy
+          usage for gamers with various skill levels. The platform offers
+          thrilling games alongside bonuses that turn every gaming occasion
+          magical. Sign up now for an unforgettable experience!
         </p>
 
         <div>
           <div>
             <h3 className="text-md uppercase md:font-[800] mt-2 md:text-xl md:mt-6">
-              Panalobet Mobile App's Prominent Features
+              Panalobet: Where Entertainment Meets Rewards and Bonuses
             </h3>
+            <p className="mb-2 md:my-4">
+              Users who register at Panalobet Casino now will encounter
+              thrilling promotions that enhance gameplay at a different
+              entertaining level. From the welcome payment on first deposit up
+              to daily offers along with specific benefits for each Ree points
+              tier all members discover valuable incentives to play at Panalobet
+              Casino. Take part in this opportunity because it exists right now.
+              Read our available promotions which kickstart your membership
+              experience at our platform. Promotions are:
+            </p>
             <ul className="list-disc pl-10 md:my-4">
+              <li>Welcome Bonus 200% - Arcade,Slots Table</li>
+              <li>200% WELCOME BONUS SLOT, FISHING</li>
+              <li>Slot, Arcade, Table 15% Unlimited Reload</li>
               <li>
-                Enjoy slots, table games, or live dealer encounters; the
-                Panalobet app provides the whole array of games accessible on
-                our desktop platform.
-              </li>
-              <li>
-                Simple navigation of the app helps you to quickly locate and
-                enjoy your preferred games.
-              </li>
-              <li>
-                Fast, safe deposits and withdrawals let the app, like on the
-                desktop platform, guarantee that all of your transactions are
-                safeguarded.
-              </li>
-              <li>
-                Should you ever have questions or require help, you may contact
-                our customer support team via the app, accessible
-                around-the-clock to address any problems.
-              </li>
-              <li>
-                On the run, the Panalobet mobile app lets you enjoy a totally
-                immersive and continuous gaming experience. Accessible for
-                download on both Android and iOS devices, the software
-                streamlines playing your preferred casino games from anywhere in
-                the globe.
+                12% Unlimited Reload- FOR USING Maya/GrabPay/USDT/Bank/7-11
               </li>
             </ul>
-          </div>
-          <div>
-            <h3 className="text-md uppercase md:font-[800] mt-2 md:text-xl md:mt-6">
-              Paying at Panalobet Casino: Convenient, Fast, Safe
-            </h3>
-            <p className="md:my-4">
-              At Panalobet, we understand that a good online gaming experience
-              depends critically on safe and hassle-free transactions. We
-              provide several payment options catered to local and international
-              players to make sure our gamers may easily handle their money.
-              Panalobet covers your preferences for conventional banking,
-              digital wallets, or cryptocurrencies.
+            <p>
+              Please check our all promotion by{" "}
+              <a href="#" className="font-bold">
+                click here
+              </a>
             </p>
           </div>
         </div>
