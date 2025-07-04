@@ -31,7 +31,7 @@ export default function StepsGuide() {
   return (
     <section className="max-w-[1230px] mx-auto text-white p-2 md:p-0">
       <div className="md:mt-5">
-        <h2 className="font-[900] text-lg md:text-xl lg:text-2xl">
+        {/* <h2 className="font-[900] text-lg md:text-xl lg:text-2xl">
           Detailed Step-by-Step Guide on Joining Panalobet Casino
         </h2>
         <p className="mb-2 md:mb-4">
@@ -39,6 +39,13 @@ export default function StepsGuide() {
           in no time by a simple and fast approach. Here is a thorough, exact
           tutorial on how to register for your account and savor the fascinating
           universe of online gaming.
+        </p> */}
+        <p className="mb-2 md:mb-4">
+          New to Panalobet? The Panalobet Free 100 bonus serves as a privileged
+          offer to assist your initial gaming start. Take advantage of the
+          current offer by signing up today to access various games. Wins of
+          significance do not come to those who stand by. Therefore, act
+          immediately. Three steps for join us:
         </p>
         <div className="relative w-full p-2 md:p-6 md:mt-4">
           <div className="relative flex flex-col w-full">
